@@ -1,0 +1,4 @@
+/* Hide Education block in Bio section only */
+#section-resume-biography-3 .md\:col-span-8 > .mb-16:has(h3) {
+  display: none;
+}
