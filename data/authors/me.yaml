@@ -12,7 +12,7 @@ name:
 status:
   icon: "🌝"
 role: "Ph.D. Student"
-bio: "Hello! 🌼 I am an HCI researcher designing and studying telepresence and XR systems that enable people to collaborate across distance and media. My work explores proxy-mediated collaboration, investigating how embodied representations such as robots and avatars become entities people can meaningfully collaborate with across space and time."
+bio: "Hello! 🌼 I am an HCI researcher who designs and studies telepresence and XR systems for remote collaboration.  My work explores proxy-mediated collaboration, examining how embodied representations such as robots and avatars support and shape collaboration across space and time."
 affiliations:
   - name: "Information Science, Cornell University"
     url: "https://infosci.cornell.edu/"
@@ -56,78 +56,5 @@ experience:
     start: "2020-05-01"
     end: "2022-02-28"
     summary: "Advisor: Dr. Jung-Min Park.\n"
-# skills:
-#   - name: "Programming & Technical"
-#     items:
-#       - label: "Python"
-#         level: 5
-#       - label: "C / C++"
-#         level: 4
-#       - label: "C#"
-#         level: 4
-#       - label: "JavaScript"
-#         level: 4
-#       - label: "Arduino"
-#         level: 4
-#       - label: "Raspberry Pi"
-#         level: 4
-#       - label: "MATLAB"
-#         level: 4
-#       - label: "R"
-#         level: 3
-#       - label: "SPSS"
-#         level: 3
-#   - name: "Research & Design"
-#     items:
-#       - label: "User Study Design"
-#         level: 5
-#       - label: "Qualitative & Quantitative Analysis"
-#         level: 5
-#       - label: "Prototyping (XR / Robotics)"
-#         level: 5
-#       - label: "Academic Writing"
-#         level: 5
-#       - label: "Conference Presentations"
-#         level: 4
-# languages:
-#   - name: "Korean"
-#     level: 5
-#     label: "Native"
-#   - name: "English"
-#     level: 4
-#     label: "Fluent"
-# awards:
-#   - title: "PiTech Fellowship"
-#     awarder: "Cornell University & Martha Graham Dance Company"
-#     date: "2024-01-01"
-#     summary: "$14,000 fellowship for research on 3D choreography archiving."
-#   - title: "KAIST Support Scholarship"
-#     awarder: "KAIST"
-#     date: "2017-01-01"
-#     summary: "$32,000 graduate scholarship."
-#   - title: "KAIST Graduate Student Fund"
-#     awarder: "KAIST"
-#     date: "2017-01-01"
-#     summary: "$5,600 research support fund."
-#   - title: "SIGCHI Student Travel Grant"
-#     awarder: "ACM SIGCHI"
-#     date: "2018-01-01"
-#     summary: "$1,800 travel grant."
-#   - title: "Excellence Award, Ewha Portfolio Competition"
-#     awarder: "Ewha Womans University"
-#     date: "2017-01-01"
-#   - title: "First Prize, Continental Automotive Innovation Contest"
-#     awarder: "Continental Automotive"
-#     date: "2016-01-01"
-#     summary: "$1,700 prize."
-#   - title: "First Prize, Ewha Capstone Design Competition"
-#     awarder: "Ewha Womans University"
-#     date: "2016-01-01"
-#     summary: "$1,000 prize."
-#   - title: "Dean’s List"
-#     awarder: "Ewha Womans University"
-#     date: "2014-01-01"
-#     summary: "2014, 2015"
-# ids:
-#   orcid: "0000-0001-8465-6442"
-#   google_scholar: "https://scholar.google.com/citations?hl=en&user=2zyuLVEAAAAJ&view_op=list_works&sortby=pubdate"
+ids:
+  orcid: "0000-0001-8465-6442"
