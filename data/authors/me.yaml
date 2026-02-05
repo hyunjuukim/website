@@ -7,15 +7,11 @@ name:
   display: "Hyunju Kim"
   given: "Hyunju"
   family: "Kim"
-  pronunciation: "Hyun-Joooo"
+  pronunciation: "Hyun-Jooooo"
   pronouns: "she/her"
-status:
-  icon: "🌝"
 role: "Ph.D. Student"
-bio: "Hello! 🌼 I am an HCI researcher who designs and studies telepresence and XR systems for remote collaboration.  My work explores proxy-mediated collaboration, examining how embodied representations such as robots and avatars support and shape collaboration across space and time."
-affiliations:
-  - name: "Information Science, Cornell University"
-    url: "https://infosci.cornell.edu/"
+bio: "Hello! 🌼 I am a Ph.D. student in [Information Science](https://infosci.cornell.edu/), advised by Prof. [François Guimbretière](https://infosci.cornell.edu/people/francois-guimbretiere). I design and study telepresence and XR systems for remote collaboration in HCI. My research explores proxy-mediated collaboration through embodied representations such as robots and avatars."
+affiliations: []
 links:
   - icon: "at-symbol"
     url: "mailto:hyunjukim@infosci.cornell.edu"

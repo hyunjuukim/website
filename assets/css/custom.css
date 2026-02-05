@@ -2,3 +2,22 @@
 #section-resume-biography-3 .md\:col-span-8 > .mb-16:has(h3) {
   display: none;
 }
+
+/* Make the bio avatar rectangular */
+#section-resume-biography-3 .avatar,
+#section-resume-biography-3 .avatar-wrapper {
+  border-radius: 0 !important;
+}
+
+#section-resume-biography-3 .avatar-wrapper {
+  width: 307px !important;
+  height: 460px !important;
+}
+
+#section-resume-biography-3 .avatar {
+  width: 307px !important;
+  height: 460px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover;
+}

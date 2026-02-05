@@ -1,5 +1,5 @@
 ---
-title: "Walking Together: Remote Co-Navigation with Embodied Telepresence"
+title: "Walking Together: Mapping Room-Scale VR Motion into Semi-Autonomous Robot Navigation"
 authors:
   - me
 author_notes:
@@ -11,10 +11,9 @@ publication_types:
 publication: ""
 publication_short: ""
 abstract: We present a VR-mediated telepresence navigation system that treats room-scale embodied motion as high-level intent while an autonomy layer executes collision-aware robot motion in dynamic environments. Using a Unitree Go2 with live 360° video, the system supports anchor-based exploration and side-by-side collaboration, making intent–execution coupling and agency boundaries observable. We frame the prototype as a design probe to study legibility of navigational authority during shared autonomy.
-summary: We conducted a user study examining how local participants collaborate with remote partners telepresented as robots versus avatars, revealing distinct participation patterns shaped by embodiment.
+summary: 
 tags:
-  - Robot
-  - VR
+  - Ongoing
 featured: true
 weight: 2
 hugoblox:
