@@ -1,10 +1,12 @@
 ---
 title: "Providing Dual Awareness using Multimodal Cues for Collaborative Manipulation in Virtual Environments"
-authors:
+authors: 
+- "Hyunju Kim"
+- "Jung Min Park"
+
 date: 2024-01-01
 publishDate: 2024-01-01T00:00:00Z
-publication_types:
-  - journal-article
+publication_types: []
 publication: "International Journal of Human--Computer Interaction"
 publication_short: "IJHCI"
 volume: "40"
@@ -27,20 +29,3 @@ weight: 10
 draft: false
 
 ---
-
-BibTeX:
-
-```bibtex
-@article{kim2024providing,
-  title={Providing dual awareness using multimodal cues for collaborative manipulation in virtual environments},
-  author={Kim, Hyunju and Park, Jung-Min},
-  journal={International Journal of Human--Computer Interaction},
-  volume={40},
-  number={12},
-  pages={3298--3312},
-  year={2024},
-  publisher={Taylor & Francis}
-}
-```
-
-Add notes, a summary, or the paper PDF/links below.

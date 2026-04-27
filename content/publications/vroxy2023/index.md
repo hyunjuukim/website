@@ -2,39 +2,26 @@
 title: "VRoxy: Enabling Remote Collaboration in Large Spaces Beyond Local Boundaries via a VR-Driven Robotic Proxy"
 authors:
   - "Mose Sakashita"
-  - me
+  - "Hyunju Kim"
   - "Brandon J Woodard"
   - "Ruidong Zhang"
   - "François Guimbretière"
-date: 2023-01-01
-publishDate: 2023-01-01T00:00:00Z
-publication_types:
-  - conference-paper
-publication: "UIST 2023"
+date: 2023-09-01
+publishDate: 2023-09-01T00:00:00Z
+publication_types: []
 pages: "59-1"
 summary: ""
 abstract: "Recent research in robotic proxies has demonstrated that one can automatically reproduce many non-verbal cues important in co-located collaboration. However, they often require a symmetrical hardware setup in each location. We present the VRoxy system, designed to enable access to remote spaces through a robotic embodiment, using a VR headset in a much smaller space, such as a personal office. VRoxy maps small movements in VR space to larger movements in the physical space of the robot, allowing the user to navigate large physical spaces easily. Using VRoxy, the VR user can quickly explore and navigate in a low-fidelity rendering of the remote space. Upon the robot’s arrival, the system uses the feed of a 360 camera to support real-time interactions. The system also facilitates various interaction modalities by rendering the micro-mobility around shared spaces, head and facial animations, and pointing gestures on the proxy. We demonstrate how our system can accommodate mapping multiple physical locations onto a unified virtual space. In a formative study, users could complete a design decision task where they navigated and collaborated in a complex 7.5m x 5m layout using a 3m x 2m VR space."
 tags:
-  - Robotics
-  - VR
+  - UIST-2023
 links: 
   - type: source
     url: "https://dl.acm.org/doi/10.1145/3586183.3606743"
+  - type: video
+    url: "https://www.youtube.com/watch?v=1hpaASC_Xls"
 image:
   filename: "vroxy.png"
 featured: false
 draft: false
 
 ---
-
-BibTeX:
-
-```bibtex
-@inproceedings{sakashita2023vroxy,
-  title={VRoxy: Enabling Remote Collaboration in Large Spaces Beyond Local Boundaries via a VR-Driven Robotic Proxy.},
-  author={Sakashita, Mose and Kim, Hyunju and Woodard, Brandon J and Zhang, Ruidong and Guimbreti{\`e}re, Fran{\c{c}}ois},
-  booktitle={UIST},
-  pages={59--1},
-  year={2023}
-}
-```

@@ -1,32 +1,30 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: "Hyunju Kim"
+    name: ""
     type: person
     tagline: ""
     description: ""
-    organization: Information Sicence, Cornell University
-    social:
-      twitter: hyunjus_twit
   theme:
     mode: system
     pack: coffee
     colors:
-      primary: "#3b2313"
-      secondary: "#3b2313"
-      neutral: ""
+      primary: "#8B5E3C"
+      secondary: "#A67C52"
+      neutral: "neutral"
     colors_light:
-      primary: "#3b2313"
+      primary: "#8B5E3C"
+      secondary: "#A67C52"
   typography:
     font: sans
     size: md
   layout:
     radius: md
-    spacing: compact
-    avatar_shape: rounded
+    spacing: comfortable
+    avatar_shape: circle
   header:
     enable: true
-    style: navbar-simple
+    style: navbar
     sticky: true
     align: center
     search: true

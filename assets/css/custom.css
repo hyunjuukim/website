@@ -3,21 +3,59 @@
   display: none;
 }
 
-/* Make the bio avatar rectangular */
+/* Make the bio avatar rectangular and responsive */
 #section-resume-biography-3 .avatar,
 #section-resume-biography-3 .avatar-wrapper {
   border-radius: 0 !important;
 }
 
 #section-resume-biography-3 .avatar-wrapper {
-  width: 307px !important;
-  height: 460px !important;
+  width: 320px !important;      /* 여기서 데스크탑 크기 조절 */
+  max-width: 100% !important;
+  aspect-ratio: 1;
+  height: auto !important;
 }
 
-#section-resume-biography-3 .avatar {
-  width: 307px !important;
-  height: 460px !important;
+#section-resume-biography-3 .avatar,
+#section-resume-biography-3 .avatar-wrapper img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
   max-width: none !important;
   max-height: none !important;
-  object-fit: cover;
 }
+
+/* Make avatar smaller on mobile */
+@media (max-width: 768px) {
+  #section-resume-biography-3 .avatar-wrapper {
+    width: 240px !important;    /* 여기서 모바일 크기 조절 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* 모든 author 링크 완전 차단 */
+a[href*="/authors/"],
+a[href*="/author/"] {
+  pointer-events: none !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* publication 메타데이터 영역 강제 제거 */
+.article-metadata,
+.article-metadata * {
+  pointer-events: none !important;
+}
+
+/* 하단 author/profile 전부 제거 */
+div[class*="author"],
+section[class*="author"],
+div[class*="profile"],
+div[class*="network"],
+div[class*="share"] {
+  display: none !important;
+}
+
