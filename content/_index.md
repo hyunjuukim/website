@@ -41,15 +41,6 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: square # Options: circle (default), square, rounded
 
-  - block: resume-experience
-    content:
-      username: me
-    design:
-      # Hugo date format
-      date_format: 'May 2006'
-      # Education or Experience section first?
-      is_education_first: true
-
   - block: collection
     id: papers
     content:
@@ -63,6 +54,8 @@ sections:
     design:
       view: article-grid
       columns: 2
+      # Show whole image instead of cropping to 16:9
+      fill_image: false
   - block: collection
     content:
       title: Publications

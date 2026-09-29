@@ -59,3 +59,49 @@ div[class*="share"] {
   display: none !important;
 }
 
+
+/* Compact layout: tighter spacing between and inside homepage sections */
+.hbb-section {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+#section-resume-biography-3 .resume-biography {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+#section-resume-biography-3 .md\:col-span-8 > .mb-12,
+#section-resume-biography-3 .md\:col-span-8 > .mb-16 {
+  margin-bottom: 1.75rem !important;
+}
+
+#section-resume-biography-3 .md\:col-span-8 .mb-8 {
+  margin-bottom: 1rem !important;
+}
+
+.blox-collection .mt-16 {
+  margin-top: 1rem !important;
+}
+
+.blox-collection .pub-list-item {
+  margin-bottom: 0.25rem !important;
+}
+
+/* Featured Publications: wider cards, images at natural ratio (no cropping) */
+#papers .max-w-screen-lg {
+  max-width: 76rem !important;
+}
+
+#papers .aspect-\[16\/9\] {
+  aspect-ratio: auto !important;
+  background: #fff !important;
+}
+
+#papers .aspect-\[16\/9\] img {
+  position: static !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  transform: none !important;
+}
