@@ -53,7 +53,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Projects
+      title: Featured Publications
       filters:
         folders:
           - publications

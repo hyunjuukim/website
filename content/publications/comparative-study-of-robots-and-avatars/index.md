@@ -23,7 +23,7 @@ hugoblox:
   ids:
 links:
   - type: pdf
-    url: "https://drive.google.com/file/d/1XJAvbsFjCxfXnT4Dcz8BrT16uXEPFY_X/view?usp=sharing"
+    url: "https://dl.acm.org/doi/10.1145/3816921"
   - type: video
     url: "https://youtu.be/uBqfn0VkqQ8"
 image:
@@ -35,4 +35,4 @@ projects: []
 slides: ""
 draft: false
 status: published
----p
+---

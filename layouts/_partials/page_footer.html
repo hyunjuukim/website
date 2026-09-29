@@ -1,0 +1,13 @@
+<div class="max-w-prose print:hidden">
+  {{/* Overrides the theme footer: tags are plain labels; no share buttons or prev/next links. */}}
+  {{ with .GetTerms "tags" }}
+  <div class="flex justify-center">
+    {{ range . }}
+    <span class="bg-primary-100 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:text-primary-300">{{ .LinkTitle }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ partial "page_author" . }}
+  {{ partial "page_related" . }}
+  {{ partial "comments" . }}
+</div>
