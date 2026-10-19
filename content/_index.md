@@ -74,6 +74,9 @@ sections:
       text: |
         - Peerbots Research Fellow (2026)
         - PiTech Fellowship: Activating Dance (AR)chives ([Link](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham)) (2024)
+        - Art+Tech Exhibition in A.D. White House: XR installation of Martha Graham archives ([Cornell Chronicle](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)) (2024)
+        - Bechdel Day: Gender Representation Analysis in Korean Films ([The Korea Times](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)) (2021)
+        - Creative Code Exhibition: Quiet Standing ([ArtCenter Nabi](https://nabi.or.kr/)) (2019)
         - KAIST Support Scholarship (2017–2018)
         - KAIST Graduate Student Fund (2017–2018)
         - SIGCHI Student Travel Grant (2018)
