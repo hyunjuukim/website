@@ -68,6 +68,20 @@ sections:
     design:
       view: citation
   - block: markdown
+    id: awards
+    content:
+      title: Awards, Fellowships & Exhibitions
+      text: |
+        - Peerbots Research Fellow (2026)
+        - PiTech Fellowship: Activating Dance (AR)chives ([Link](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham)) (2024)
+        - KAIST Support Scholarship (2017–2018)
+        - KAIST Graduate Student Fund (2017–2018)
+        - SIGCHI Student Travel Grant (2018)
+        - Excellence Award, Ewha Portfolio Competition (2017)
+        - First Prize, Continental Automotive Innovation Contest (2016)
+        - First Prize, Ewha Capstone Design Competition (2016)
+        - Dean's List, Ewha Womans University (2014, 2015)
+  - block: markdown
     id: teaching
     content:
       title: Teaching Experiences
