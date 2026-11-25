@@ -52,17 +52,96 @@ sections:
       columns: 2
       # Show whole image instead of cropping to 16:9
       fill_image: false
-  - block: collection
+  - block: markdown
+    id: publications
     content:
       title: Publications
-      text: ''
-      count: 999
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+      text: |
+        ### Peer-Reviewed Full Papers
+        
+        **[DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration](https://doi.org/10.1145/3772318.3790808)**  
+        **Hyunju Kim**, François Guimbretière, Bokyung Lee  
+        *CHI ’26 · Honorable Mention (Top 5%)*
+        
+        **[Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars](https://doi.org/10.1145/3816921)**  
+        **Hyunju Kim**, Yeonju Jang, Mose Sakashita, Brandon Woodard, Yuki Suwabe, Danielle Ihechisim Imogu, Xiaozhen Liu, Guy Hoffman, François Guimbretière  
+        *PACM HCI (CSCW ’26)*
+        
+        **[The Effects of Avatar Gender on Ratings of Reconstructed Teaching](https://doi.org/10.1016/j.chbr.2026.101437)**  
+        Yilu Sun, Yejoon Yoo, **Hyunju Kim**, Xianyi Li, Rimjhim Singh, Yuqing Wu, Wei Yang, Aleshia Hayes, Andrea Stevenson Won  
+        *Computers in Human Behavior Reports · 2026*
+        
+        **Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments**  
+        **Hyunju Kim**, Jung-Min Park  
+        *International Journal of Human–Computer Interaction · 2023*
+        
+        **[VRoxy: Wide-Area Collaboration From an Office Using a VR-Driven Robotic Proxy](https://doi.org/10.1145/3586183.3606743)**  
+        Mose Sakashita, **Hyunju Kim**, Brandon Woodard, Ruidong Zhang, François Guimbretière  
+        *UIST ’23*
+        
+        **ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment**  
+        Mose Sakashita, Ruidong Zhang, Xiaoyi Li, **Hyunju Kim**, Michael Russo, Cheng Zhang, Malte F. Jung, François Guimbretière  
+        *CHI ’23*
+        
+        **[Human-Centered Dynamic Service Scheduling Approach in Multi-Agent Environments](https://www.mdpi.com/2076-3417/12/21/10850)**  
+        Yunseo Jung, **Hyunju Kim**, Kyung-Duk Suh, Jung-Min Park  
+        *Applied Sciences · 2022*
+        
+        **[RealityBrush: An AR Authoring System that Captures and Utilizes Kinetic Properties of Everyday Objects](https://link.springer.com/article/10.1007/s11042-020-09332-4)**  
+        **Hyunju Kim**, Sanghwa Hong, Junki Kim, Taesoo Jang, Woontack Woo, Seongkook Heo, Byungjoo Lee  
+        *Multimedia Tools and Applications · 2021*
+        
+        ### Extended Abstracts & Posters
+        
+        **[Reframing Wizard-of-Oz for Proxy-Mediated Interaction](https://doi.org/10.1145/3772363.3799017)**  
+        Jieun Kim and **Hyunju Kim** (co-first authors)  
+        *CHI EA ’26*
+        
+        **[MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)**  
+        Cheng Yao Wang, **Hyunju Kim**, Payod Panda, Eyal Ofek, Mar Gonzalez-Franco, Andrea Stevenson Won  
+        *ISMAR-Adjunct ’24*
+        
+        **[AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations](https://ieeexplore.ieee.org/document/10765138)**  
+        Cheng Yao Wang, Eyal Ofek, **Hyunju Kim**, Payod Panda, Andrea Stevenson Won, Mar Gonzalez-Franco  
+        *ISMAR-Adjunct ’24*
+        
+        **[Comparing the Impact of Professional and Automatic Closed Captions on Video-Watching Experience](https://dl.acm.org/doi/10.1145/3544549.3585634)**  
+        **Hyunju Kim**, Yan Tao, Chuanrui Liu, Yuzhuo Zhang, Yuxin Li  
+        *CHI EA ’23*
+        
+        **[Button++: Designing Risk-aware Smart Buttons](https://dl.acm.org/doi/10.1145/3170427.3188645)**  
+        Eunji Park, **Hyunju Kim**, Byungjoo Lee  
+        *CHI EA ’18*
+        
+        ### Other Publications
+        
+        **Who Moved the Robot? Contribution Dissolution in Agentic Telepresence**  
+        **Hyunju Kim**  
+        *Nobody Did This, CSCW ’26 Workshop*
+        
+        **[SoundFleXR: Selectively Constraining Axes of Audio Rendering Presentations](https://arxiv.org/abs/2611.28020)**  
+        Brandon Woodard, **Hyunju Kim**, Hyunsung Cho, David Lindlbauer, Rhonda Wilson, Joseph LaViola Jr.  
+        *arXiv preprint · 2026*
+  - block: markdown
+    id: work-in-progress
+    content:
+      title: Work in Progress
+      text: |
+        **Replicating the Design Space of Rendered Robot Faces**  
+        *Under review, HRI 2027 Short Contributions*  
+        Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
+        
+        **ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration**  
+        *Manuscript in preparation*  
+        Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
+        
+        **WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence**  
+        *Manuscript in preparation*  
+        Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
+        
+        **Make My Body: When a Robot Talks with Its Maker About Its Own Body**  
+        *Manuscript in preparation*  
+        Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
   - block: markdown
     id: awards
     content:
