@@ -91,7 +91,7 @@ sections:
           Yilu Sun, Yejoon Yoo, **Hyunju Kim**, Xianyi Li, Rimjhim Singh, Yuqing Wu, Wei Yang, Aleshia Hayes, Andrea Stevenson Won  
           *Computers in Human Behavior Reports · 2026*
         
-        - **Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments**  
+        - **[Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments](https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2188533)**  
           **Hyunju Kim**, Jung-Min Park  
           *International Journal of Human–Computer Interaction · 2023*
         
