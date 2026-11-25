@@ -145,7 +145,7 @@ sections:
   - block: markdown
     id: awards
     content:
-      title: Awards, Fellowships, Talks & Exhibitions
+      title: Fellowships, Talks & Exhibitions
       text: |
         <div class="activity-grid" style="display:grid;gap:18px;width:100%;margin:auto;">
         <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://peerbots.org/research/fellowship" style="display:block;color:inherit;text-decoration:none;"><img src="https://peerbots.org/Peerbots%20Logo.png" alt="Peerbots logo" style="width:100%;height:160px;object-fit:contain;background:#fff;"><div style="padding:22px;"><small style="opacity:.75;">Fellowship · 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Peerbots Research Fellowship</h3><p style="font-size:.95rem;margin:0;">Replicating and extending the design space of rendered robot faces to study static and animated expressive cues.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
