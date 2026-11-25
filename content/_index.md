@@ -53,6 +53,26 @@ sections:
       # Show whole image instead of cropping to 16:9
       fill_image: false
   - block: markdown
+    id: work-in-progress
+    content:
+      title: Work in Progress
+      text: |
+        **[Replicating the Design Space of Rendered Robot Faces](/website/projects/robot-faces/)**  
+        *Under review, HRI 2027 Short Contributions*  
+        Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
+        
+        **[ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration](/website/projects/proxypilot/)**  
+        *Manuscript in preparation*  
+        Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
+        
+        **[WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence](/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/)**  
+        *Manuscript in preparation*  
+        Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
+        
+        **[Make My Body: When a Robot Talks with Its Maker About Its Own Body](/website/projects/make-my-body/)**  
+        *Manuscript in preparation*  
+        Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
+  - block: markdown
     id: publications
     content:
       title: Publications
@@ -123,33 +143,13 @@ sections:
           Brandon Woodard, **Hyunju Kim**, Hyunsung Cho, David Lindlbauer, Rhonda Wilson, Joseph LaViola Jr.  
           *arXiv preprint · 2026*
   - block: markdown
-    id: work-in-progress
-    content:
-      title: Work in Progress
-      text: |
-        **Replicating the Design Space of Rendered Robot Faces**  
-        *Under review, HRI 2027 Short Contributions*  
-        Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
-        
-        **ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration**  
-        *Manuscript in preparation*  
-        Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
-        
-        **WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence**  
-        *Manuscript in preparation*  
-        Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
-        
-        **Make My Body: When a Robot Talks with Its Maker About Its Own Body**  
-        *Manuscript in preparation*  
-        Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
-  - block: markdown
     id: awards
     content:
       title: Awards, Fellowships, Talks & Exhibitions
       text: |
         <div class="activity-grid" style="display:grid;gap:18px;width:100%;margin:auto;">
         <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://peerbots.org/research/fellowship" style="display:block;color:inherit;text-decoration:none;"><div style="padding:22px;"><small style="opacity:.75;">Fellowship · 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Peerbots Research Fellowship</h3><p style="font-size:.95rem;margin:0;">Replicating and extending the design space of rendered robot faces to study static and animated expressive cues.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
-        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><img src="/website/media/make-my-body.png" alt="Make My Body workshop poster" style="width:100%;height:160px;object-fit:contain;background:#fff;"><div style="padding:22px;"><small style="opacity:.75;">Lead organizer · Cornell Bowers CIS · Oct 27–28, 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Make My Body: Robot Design Workshop</h3><p style="font-size:.95rem;margin:0;">Participants co-designed a robot’s physical body through conversation with the robot.</p></div></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="/website/projects/make-my-body/" style="display:block;color:inherit;text-decoration:none;"><img src="/website/media/make-my-body.png" alt="Make My Body workshop poster" style="width:100%;height:160px;object-fit:contain;background:#fff;"><div style="padding:22px;"><small style="opacity:.75;">Lead organizer · Cornell Bowers CIS · Oct 27–28, 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Make My Body: Robot Design Workshop</h3><p style="font-size:.95rem;margin:0;">Participants co-designed a robot’s physical body through conversation with the robot.</p></div><p style="padding:0 14px;font-size:.85rem;">Learn more →</p></a></article>
         <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://www.dance.nyc/for-audiences/community-calendar/view/NEWGraham-Graham-and-Tech/2025-03-18/" style="display:block;color:inherit;text-decoration:none;"><div style="padding:22px;"><small style="opacity:.75;">Invited talk · Martha Graham School · March 2025</small><h3 style="font-size:1.15rem;margin:10px 0;">NEW@Graham: Graham &amp; Tech</h3><p style="font-size:.95rem;margin:0;">Interactive 3D experiences of Martha Graham choreography.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
         <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham" style="display:block;color:inherit;text-decoration:none;"><img src="https://images.squarespace-cdn.com/content/v1/64f7282ac7818a537fe9f402/0c1af8d2-ce93-42e9-bcf4-27a6ed43075e/image10.png" alt="Dance (AR)chive XR headset application" style="width:100%;height:160px;object-fit:contain;"><div style="padding:22px;"><small style="opacity:.75;">Fellowship · 2024</small><h3 style="font-size:1.15rem;margin:10px 0;">PiTech Fellowship: Activating Dance (AR)chives</h3><p style="font-size:.95rem;margin:0;">Exploring augmented reality with the repertoire of Martha Graham.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
         <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work" style="display:block;color:inherit;text-decoration:none;"><img src="https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&amp;itok=yx14mE_K" alt="Art+Tech Exhibition" style="width:100%;height:220px;object-fit:contain;background:#fff;display:block;margin:0;"><div style="padding:22px;"><small style="opacity:.75;">Exhibition · Cornell · December 2024</small><h3 style="font-size:1.15rem;margin:10px 0;">Art+Tech Exhibition</h3><p style="font-size:.95rem;margin:0;">Interactive XR installation of Martha Graham’s dance archives.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
