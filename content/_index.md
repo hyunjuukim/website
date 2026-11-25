@@ -17,10 +17,6 @@ sections:
       username: me
       text: ''
       show_education: false
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: https://drive.google.com/file/d/1EAAJJJcDQTBhOXAQih5BEIQyzSuKiKoe/view?usp=sharing
       headings:
         about: ''
         education: ''
@@ -70,13 +66,37 @@ sections:
   - block: markdown
     id: awards
     content:
-      title: Awards & Fellowships
+      title: Awards, Fellowships, Talks & Exhibitions
       text: |
-        - **CHI 2026 Honorable Mention Award (Top 5%)** — DanXeReflect (2026)
-        - **[Peerbots Research Fellowship (2026)](https://peerbots.org/research/fellowship)** — Robot face perception and expressive cue design with Vizij.ai. [Fellow profile & research →](https://peerbots.org/research/fellowship)
-        - Cornell Graduate School Conference Grant (2023, 2026)
-        - [PiTech Fellowship: Activating Dance (AR)chives](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham) (2024)
-        - Cornell Bowers CIS Dream Grant (2023–2024)
+        **[Peerbots Research Fellowship (2026)](https://peerbots.org/research/fellowship)**
+
+        Replicating and extending the design space of rendered robot faces to study static and animated expressive cues.
+
+        **[PiTech Fellowship: Activating Dance (AR)chives (2024)](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham)**
+
+        Exploring augmented reality with the repertoire of Martha Graham.
+
+        **Make My Body: Robot Design Workshop (2026)**
+
+        Lead organizer of a hands-on workshop where participants co-designed a robot's body through conversation.
+
+        **NEW@Graham: Graham & Tech (2025)** — Invited talk at Martha Graham School, New York.
+
+        **XR Monthly: Augmented Reality+Dance (2024)** — Invited talk at Cornell Tech XR Collaboratory.
+
+        [![Art+Tech Exhibition](https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&itok=yx14mE_K)](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
+
+        **[Art+Tech Exhibition (2024)](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)**
+
+        Interactive XR installation of Martha Graham's dance archives at Cornell.
+
+        [![Bechdel Day](https://img.koreatimes.co.kr/upload/newsV2/images/202109/8f00b5477e5f4b049d57df308b3faf86.jpg?w=728)](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
+
+        **[Bechdel Day: Gender Representation Analysis in Korean Films (2021)](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)**
+
+        Frame-by-frame analysis of visual gender representation in Korean films.
+
+        **[Creative Code Exhibition: Quiet Standing (2019)](https://nabi.or.kr/)**
   - block: markdown
     id: teaching
     content:
@@ -105,36 +125,4 @@ sections:
         **Reviewer recognition:** Special Recognitions for Outstanding Reviews, CHI 2027 and DIS 2026.
 
         **Community organization:** Cornell HCI Korea Group (2023–2024).
-  - block: markdown
-    id: activities
-    content:
-      title: Invited Talks, Workshops & Exhibitions
-      text: |
-        ### Invited Talks
-
-        - **Guest Lecture**, Underwood International College, Yonsei University (May 2025) — Dance (AR)chive and the convergence of cultural industries and technology.
-        - **NEW@Graham: Graham & Tech**, Martha Graham School, New York (March 2025) — Interactive 3D experiences of Martha Graham choreography.
-        - **XR Monthly: Augmented Reality+Dance**, Cornell Tech XR Collaboratory (September 2024).
-
-        ### Workshops
-
-        **Make My Body: Robot Design Workshop** · Cornell Bowers CIS · October 27–28, 2026
-
-        Lead organizer of a hands-on workshop where participants co-designed a robot's body through conversation with the robot.
-
-        ### Exhibitions & Public Engagement
-
-        ![Visitors experiencing the XR dance archive at Art+Tech](https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&itok=yx14mE_K)
-
-        **Art+Tech Exhibition** · A.D. White House, Cornell · December 2024
-
-        Interactive XR installation bringing Martha Graham's dance archives to life. [Cornell Chronicle](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
-        ![Bechdel Day 2021](https://img.koreatimes.co.kr/upload/newsV2/images/202109/8f00b5477e5f4b049d57df308b3faf86.jpg?w=728)
-
-        **Bechdel Day: Gender Representation Analysis in Korean Films**
-
-        Directors Guild of Korea · 2021
-
-        Analyzed visual gender representation in Korean commercial and independent films through frame-by-frame scene analysis. [Press coverage — The Korea Times →](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
-        - **Creative Code Exhibition: Quiet Standing**, ArtCenter Nabi (2019).
 ---
