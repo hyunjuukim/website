@@ -478,11 +478,19 @@
         </div>
         {{ end }}
 
-        <div class="mb-8 text-sm text-gray-600 dark:text-gray-400" style="line-height:1.7;">
-          <span>Cornell · Ph.D. (2022–Present)</span> <span aria-hidden="true"> — </span>
-          <span>KIST · Research Intern (2020–2022)</span> <span aria-hidden="true"> — </span>
-          <span>KAIST · M.Eng. (2017–2019)</span> <span aria-hidden="true"> — </span>
-          <span>Ewha · B.Sc. (2013–2017)</span>
+        <div class="mb-8" aria-label="Education and research experience" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));text-align:center;gap:0;">
+          {{ range $i, $item := (slice (dict "school" "Cornell" "role" "Ph.D." "icon" "academic-cap") (dict "school" "KIST" "role" "Post-Master’s Researcher" "icon" "briefcase") (dict "school" "KAIST" "role" "M.Eng." "icon" "academic-cap") (dict "school" "Ewha" "role" "B.Sc." "icon" "academic-cap")) }}
+          <div style="min-width:0;">
+            <div style="position:relative;display:flex;justify-content:center;align-items:center;margin-bottom:6px;">
+              {{ if lt $i 3 }}<span aria-hidden="true" style="position:absolute;left:50%;width:100%;height:1px;background:currentColor;opacity:.25;"></span>{{ end }}
+              <span class="bg-primary-100 dark:bg-primary-900 text-primary-600 dark:text-primary-400" style="position:relative;display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;">
+                {{ partial "functions/get_icon" (dict "name" $item.icon "attributes" "class='w-5 h-5'") }}
+              </span>
+            </div>
+            <div class="text-gray-900 dark:text-white" style="font-size:.85rem;font-weight:600;">{{ $item.school }}</div>
+            <div class="text-gray-600 dark:text-gray-400" style="font-size:.72rem;line-height:1.25;padding:0 3px;">{{ $item.role }}</div>
+          </div>
+          {{ end }}
         </div>
 
         {{/* Interests Section */}}
