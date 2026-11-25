@@ -11,7 +11,7 @@ abstract: "When a remote guest joins a local collaborator to explore an unfamili
 summary: 
 tags:
   - Work in Progress
-featured: false
+featured: true
 weight: 2
 hugoblox:
   ids:
