@@ -68,32 +68,14 @@ sections:
     content:
       title: Awards, Fellowships, Talks & Exhibitions
       text: |
-        **[Peerbots Research Fellowship (2026)](https://peerbots.org/research/fellowship)**
-
-        Replicating and extending the design space of rendered robot faces to study static and animated expressive cues.
-
-        **[PiTech Fellowship: Activating Dance (AR)chives (2024)](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham)**
-
-        Exploring augmented reality with the repertoire of Martha Graham.
-
-        **Make My Body: Robot Design Workshop** · Cornell Bowers CIS · October 27–28, 2026
-
-        Lead organizer of a hands-on workshop where participants co-designed a robot's body through conversation.
-
-        **[NEW@Graham: Graham & Tech (2025)](https://www.dance.nyc/for-audiences/community-calendar/view/NEWGraham-Graham-and-Tech/2025-03-18/)** — Invited talk at Martha Graham School, New York, March 2025. Interactive 3D experiences of Martha Graham choreography.
-
-        [![Art+Tech Exhibition](https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&itok=yx14mE_K)](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
-
-        **[Art+Tech Exhibition (2024)](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)**
-
-        Interactive XR installation of Martha Graham's dance archives at Cornell.
-
-        [![Bechdel Day](https://img.koreatimes.co.kr/upload/newsV2/images/202109/8f00b5477e5f4b049d57df308b3faf86.jpg?w=728)](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
-
-        **[Bechdel Day: Gender Representation Analysis in Korean Films (2021)](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)**
-
-        Frame-by-frame analysis of visual gender representation in Korean films.
-
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px;width:100%;max-width:1000px;margin:auto;">
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://peerbots.org/research/fellowship" style="display:block;color:inherit;text-decoration:none;"><div style="padding:22px;"><small style="opacity:.75;">Fellowship · 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Peerbots Research Fellowship</h3><p style="font-size:.95rem;margin:0;">Replicating and extending the design space of rendered robot faces to study static and animated expressive cues.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><div style="padding:22px;"><small style="opacity:.75;">Lead organizer · Cornell Bowers CIS · Oct 27–28, 2026</small><h3 style="font-size:1.15rem;margin:10px 0;">Make My Body: Robot Design Workshop</h3><p style="font-size:.95rem;margin:0;">Participants co-designed a robot’s physical body through conversation with the robot.</p></div></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://www.dance.nyc/for-audiences/community-calendar/view/NEWGraham-Graham-and-Tech/2025-03-18/" style="display:block;color:inherit;text-decoration:none;"><div style="padding:22px;"><small style="opacity:.75;">Invited talk · Martha Graham School · March 2025</small><h3 style="font-size:1.15rem;margin:10px 0;">NEW@Graham: Graham &amp; Tech</h3><p style="font-size:.95rem;margin:0;">Interactive 3D experiences of Martha Graham choreography.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham" style="display:block;color:inherit;text-decoration:none;"><div style="padding:22px;"><small style="opacity:.75;">Fellowship · 2024</small><h3 style="font-size:1.15rem;margin:10px 0;">PiTech Fellowship: Activating Dance (AR)chives</h3><p style="font-size:.95rem;margin:0;">Exploring augmented reality with the repertoire of Martha Graham.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work" style="display:block;color:inherit;text-decoration:none;"><img src="https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&amp;itok=yx14mE_K" alt="Art+Tech Exhibition" style="width:100%;height:220px;object-fit:contain;background:#fff;display:block;margin:0;"><div style="padding:22px;"><small style="opacity:.75;">Exhibition · Cornell · December 2024</small><h3 style="font-size:1.15rem;margin:10px 0;">Art+Tech Exhibition</h3><p style="font-size:.95rem;margin:0;">Interactive XR installation of Martha Graham’s dance archives.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
+        <article style="border:1px solid #d8d1ca;border-radius:16px;overflow:hidden;box-shadow:0 3px 8px #0000000a;"><a href="https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html" style="display:block;color:inherit;text-decoration:none;"><img src="https://img.koreatimes.co.kr/upload/newsV2/images/202109/8f00b5477e5f4b049d57df308b3faf86.jpg?w=728" alt="Bechdel Day: Gender Representation Analysis in Korean Films" style="width:100%;height:220px;object-fit:contain;background:#fff;display:block;margin:0;"><div style="padding:22px;"><small style="opacity:.75;">Public engagement · 2021</small><h3 style="font-size:1.15rem;margin:10px 0;">Bechdel Day: Gender Representation Analysis in Korean Films</h3><p style="font-size:.95rem;margin:0;">Frame-by-frame analysis of visual gender representation in Korean films.</p><p style="font-size:.85rem;margin:14px 0 0;">Learn more →</p></div></a></article>
+        </div>
   - block: markdown
     id: teaching
     content:
