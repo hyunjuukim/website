@@ -73,16 +73,10 @@ sections:
       title: Awards & Fellowships
       text: |
         - **CHI 2026 Honorable Mention Award (Top 5%)** — DanXeReflect (2026)
-        - Peerbots Research Fellowship (2026)
+        - **[Peerbots Research Fellowship (2026)](https://peerbots.org/research/fellowship)** — Robot face perception and expressive cue design with Vizij.ai. [Fellow profile & research →](https://peerbots.org/research/fellowship)
         - Cornell Graduate School Conference Grant (2023, 2026)
         - [PiTech Fellowship: Activating Dance (AR)chives](https://www.pi.tech.cornell.edu/spotlight/activating-dance-archives-exploring-augmented-reality-with-the-repertoire-of-martha-graham) (2024)
         - Cornell Bowers CIS Dream Grant (2023–2024)
-        - KAIST Support Scholarship and Graduate Student Fund (2017–2018)
-        - SIGCHI Student Travel Grant (2018)
-        - Excellence Award, Ewha Portfolio Competition (2017)
-        - First Prize, Continental Automotive Innovation Contest (2016)
-        - First Prize, Ewha Capstone Design Competition (2016)
-        - Dean's List, Ewha Womans University (2014, 2015)
   - block: markdown
     id: teaching
     content:
@@ -135,6 +129,12 @@ sections:
         **Art+Tech Exhibition** · A.D. White House, Cornell · December 2024
 
         Interactive XR installation bringing Martha Graham's dance archives to life. [Cornell Chronicle](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
-        - **Bechdel Day**, Directors Guild of Korea (2021) — Gender representation analysis in Korean films. [The Korea Times](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
+        ![Bechdel Day 2021](https://img.koreatimes.co.kr/upload/newsV2/images/202109/8f00b5477e5f4b049d57df308b3faf86.jpg?w=728)
+
+        **Bechdel Day: Gender Representation Analysis in Korean Films**
+
+        Directors Guild of Korea · 2021
+
+        Analyzed visual gender representation in Korean commercial and independent films through frame-by-frame scene analysis. [Press coverage — The Korea Times →](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
         - **Creative Code Exhibition: Quiet Standing**, ArtCenter Nabi (2019).
 ---
