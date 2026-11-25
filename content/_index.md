@@ -135,7 +135,7 @@ sections:
         
         ### Other Publications
         
-        - **Who Moved the Robot? Contribution Dissolution in Agentic Telepresence**  
+        - **[Who Moved the Robot? Contribution Dissolution in Agentic Telepresence](https://kashifimteyaza.github.io/agent-mediated-collaboration/papers.html)**  
           **Hyunju Kim**  
           *Nobody Did This, CSCW ’26 Workshop*
         
