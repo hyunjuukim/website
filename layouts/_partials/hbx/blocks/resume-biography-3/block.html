@@ -479,7 +479,7 @@
         {{ end }}
 
         <div class="mb-8" aria-label="Education and research experience" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));text-align:center;gap:0;">
-          {{ range $i, $item := (slice (dict "school" "Cornell" "role" "Ph.D." "icon" "academic-cap") (dict "school" "KIST" "role" "Post-Master’s Researcher" "icon" "briefcase") (dict "school" "KAIST" "role" "M.Eng." "icon" "academic-cap") (dict "school" "Ewha" "role" "B.Sc." "icon" "academic-cap")) }}
+          {{ range $i, $item := (slice (dict "school" "Cornell" "role" "Ph.D." "icon" "academic-cap") (dict "school" "KIST" "role" "Post Master Researcher" "icon" "briefcase") (dict "school" "KAIST" "role" "M.Eng." "icon" "academic-cap") (dict "school" "Ewha" "role" "B.Sc." "icon" "academic-cap")) }}
           <div style="min-width:0;">
             <div style="position:relative;display:flex;justify-content:center;align-items:center;margin-bottom:6px;">
               {{ if lt $i 3 }}<span aria-hidden="true" style="position:absolute;left:50%;width:100%;height:1px;background:currentColor;opacity:.25;"></span>{{ end }}
