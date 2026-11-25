@@ -57,21 +57,21 @@ sections:
     content:
       title: Work in Progress
       text: |
-        **[Replicating the Design Space of Rendered Robot Faces](/website/projects/robot-faces/)**  
-        *Under review, HRI 2027 Short Contributions*  
-        Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
+        - **[Replicating the Design Space of Rendered Robot Faces](/website/projects/robot-faces/)**  
+          *Under review, HRI 2027 Short Contributions*  
+          Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
         
-        **[ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration](/website/projects/proxypilot/)**  
-        *Manuscript in preparation*  
-        Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
+        - **[ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration](/website/projects/proxypilot/)**  
+          *Manuscript in preparation*  
+          Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
         
-        **[WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence](/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/)**  
-        *Manuscript in preparation*  
-        Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
+        - **[WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence](/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/)**  
+          *Manuscript in preparation*  
+          Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
         
-        **[Make My Body: When a Robot Talks with Its Maker About Its Own Body](/website/projects/make-my-body/)**  
-        *Manuscript in preparation*  
-        Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
+        - **[Make My Body: When a Robot Talks with Its Maker About Its Own Body](/website/projects/make-my-body/)**  
+          *Manuscript in preparation*  
+          Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
   - block: markdown
     id: publications
     content:
