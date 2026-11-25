@@ -3,8 +3,11 @@ main:
     url: /
     weight: 10
   - name: Publications
-    url: /publications/
+    url: /#publications
     weight: 20
+  - name: Work in Progress
+    url: /#work-in-progress
+    weight: 25
   - name: Activities
     url: /#awards
     weight: 30
