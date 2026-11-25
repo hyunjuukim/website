@@ -57,7 +57,7 @@ sections:
     content:
       title: Work in Progress
       text: |
-        - **[Replicating the Design Space of Rendered Robot Faces](/website/projects/robot-faces/)**  
+        - **Replicating the Design Space of Rendered Robot Faces**  
           *Under review, HRI 2027 Short Contributions*  
           Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
         
