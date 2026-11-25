@@ -3,7 +3,7 @@ title: "Replicating the Design Space of Rendered Robot Faces"
 summary: "This project revisits a foundational study of rendered robot faces through a replication with 68 new participants. It examines how visual design choices shape perceptions of robot faces."
 date: 2026-11-25
 featured: false
-draft: false
+draft: true
 tags:
   - Work in Progress
 ---
