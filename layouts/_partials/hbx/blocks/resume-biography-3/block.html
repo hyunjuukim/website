@@ -271,6 +271,60 @@
           {{ end }}
         </div>
 
+        {{/* Social Icons */}}
+        {{ $links_raw := $profile.links }}
+        {{ $links := slice }}
+        {{ if reflect.IsSlice $links_raw }}
+          {{ $links = $links_raw }}
+        {{ else if eq (printf "%T" $links_raw) "string" }}
+          {{ $links = slice $links_raw }}
+        {{ end }}
+        {{ if gt (len $links) 0 }}
+        <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-3">
+          {{ range $links }}
+          {{ $linkUrl := "" }}
+          {{ $iconName := "hero/link" }}
+          {{ $linkLabel := "" }}
+          {{ if reflect.IsMap . }}
+            {{ $urlRaw := index . "url" | default (index . "link") }}
+            {{ if eq (printf "%T" $urlRaw) "string" }}
+              {{ $linkUrl = $urlRaw }}
+            {{ end }}
+            {{ $iconRaw := index . "icon" }}
+            {{ if eq (printf "%T" $iconRaw) "string" }}
+              {{ $iconName = $iconRaw }}
+            {{ end }}
+            {{ $labelRaw := index . "label" }}
+            {{ if eq (printf "%T" $labelRaw) "string" }}
+              {{ $linkLabel = $labelRaw }}
+            {{ end }}
+          {{ else if eq (printf "%T" .) "string" }}
+            {{ $linkUrl = . }}
+          {{ end }}
+          {{ $linkUrl = strings.TrimSpace $linkUrl }}
+          {{ if $linkUrl }}
+            {{ $scheme := (urls.Parse $linkUrl).Scheme }}
+            {{ $target := "" }}
+            {{ if not $scheme }}
+              {{ if not (hasPrefix $linkUrl "#") }}
+                {{ $linkUrl = $linkUrl | relLangURL }}
+              {{ end }}
+              {{ if eq (path.Ext $linkUrl) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+            {{ else if in (slice "http" "https") $scheme }}
+              {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+            <a href="{{ $linkUrl | safeURL }}" {{ $target | safeHTMLAttr }} 
+               aria-label="{{ $linkLabel | default $iconName }}"
+               {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
+               class="inline-flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+              {{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-5 h-5\"")  }}
+              {{ with $linkLabel }}<span>{{ . }}</span>{{ end }}
+            </a>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+
       </div>
 
       {{/* Right Column: Flexible span */}}
@@ -487,60 +541,6 @@
           <p class="mt-6 text-sm text-gray-500 dark:text-gray-400">
             Last updated: <time datetime="{{ $last_updated | time.Format "2006-01-02" }}">{{ $last_updated | time.Format "January 2, 2006" }}</time>
           </p>
-        {{/* Social Icons */}}
-        {{ $links_raw := $profile.links }}
-        {{ $links := slice }}
-        {{ if reflect.IsSlice $links_raw }}
-          {{ $links = $links_raw }}
-        {{ else if eq (printf "%T" $links_raw) "string" }}
-          {{ $links = slice $links_raw }}
-        {{ end }}
-        {{ if gt (len $links) 0 }}
-        <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
-          {{ range $links }}
-          {{ $linkUrl := "" }}
-          {{ $iconName := "hero/link" }}
-          {{ $linkLabel := "" }}
-          {{ if reflect.IsMap . }}
-            {{ $urlRaw := index . "url" | default (index . "link") }}
-            {{ if eq (printf "%T" $urlRaw) "string" }}
-              {{ $linkUrl = $urlRaw }}
-            {{ end }}
-            {{ $iconRaw := index . "icon" }}
-            {{ if eq (printf "%T" $iconRaw) "string" }}
-              {{ $iconName = $iconRaw }}
-            {{ end }}
-            {{ $labelRaw := index . "label" }}
-            {{ if eq (printf "%T" $labelRaw) "string" }}
-              {{ $linkLabel = $labelRaw }}
-            {{ end }}
-          {{ else if eq (printf "%T" .) "string" }}
-            {{ $linkUrl = . }}
-          {{ end }}
-          {{ $linkUrl = strings.TrimSpace $linkUrl }}
-          {{ if $linkUrl }}
-            {{ $scheme := (urls.Parse $linkUrl).Scheme }}
-            {{ $target := "" }}
-            {{ if not $scheme }}
-              {{ if not (hasPrefix $linkUrl "#") }}
-                {{ $linkUrl = $linkUrl | relLangURL }}
-              {{ end }}
-              {{ if eq (path.Ext $linkUrl) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
-            {{ else if in (slice "http" "https") $scheme }}
-              {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-            {{ end }}
-            <a href="{{ $linkUrl | safeURL }}" {{ $target | safeHTMLAttr }} 
-               aria-label="{{ $linkLabel | default $iconName }}"
-               {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
-               class="inline-flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-              {{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-5 h-5\"")  }}
-              {{ with $linkLabel }}<span>{{ . }}</span>{{ end }}
-            </a>
-          {{ end }}
-          {{ end }}
-        </div>
-        {{ end }}
-
         </div>
       </div>
     </div>
