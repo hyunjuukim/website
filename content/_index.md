@@ -124,11 +124,17 @@ sections:
 
         ### Workshops
 
-        - **Make My Body: Robot Design Workshop**, Cornell Bowers CIS (Fall 2026) — Lead organizer.
+        **Make My Body: Robot Design Workshop** · Cornell Bowers CIS · October 27–28, 2026
+
+        Lead organizer of a hands-on workshop where participants co-designed a robot's body through conversation with the robot.
 
         ### Exhibitions & Public Engagement
 
-        - **Art+Tech Exhibit**, A.D. White House, Cornell (December 2024) — XR installation of Martha Graham archives. [Cornell Chronicle](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
+        ![Visitors experiencing the XR dance archive at Art+Tech](https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&itok=yx14mE_K)
+
+        **Art+Tech Exhibition** · A.D. White House, Cornell · December 2024
+
+        Interactive XR installation bringing Martha Graham's dance archives to life. [Cornell Chronicle](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
         - **Bechdel Day**, Directors Guild of Korea (2021) — Gender representation analysis in Korean films. [The Korea Times](https://www.koreatimes.co.kr/www/art/2023/12/398_315108.html)
         - **Creative Code Exhibition: Quiet Standing**, ArtCenter Nabi (2019).
 ---
