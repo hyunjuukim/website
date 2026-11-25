@@ -7,7 +7,7 @@ main:
     weight: 20
   - name: Work in Progress
     url: /#work-in-progress
-    weight: 25
+    weight: 15
   - name: Activities
     url: /#awards
     weight: 30
