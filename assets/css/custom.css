@@ -114,7 +114,7 @@ div[class*="share"] {
 #publications .prose p, #work-in-progress .prose p { margin:.65rem 0 !important; line-height:1.5 !important; }
 #publications .prose a { text-decoration:none !important; }
 #publications .prose a:hover { text-decoration:underline !important; }
-#awards .activity-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+#awards .activity-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
 #awards .activity-grid article { min-width:0; }
 #awards .activity-grid article div { padding:14px !important; }
 #awards .activity-grid article h3 { font-size:1rem !important; line-height:1.35 !important; }
