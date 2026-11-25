@@ -99,7 +99,7 @@ sections:
           Mose Sakashita, **Hyunju Kim**, Brandon Woodard, Ruidong Zhang, François Guimbretière  
           *UIST ’23*
         
-        - **ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment**  
+        - **[ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment](https://dl.acm.org/doi/10.1145/3544548.3580699)**  
           Mose Sakashita, Ruidong Zhang, Xiaoyi Li, **Hyunju Kim**, Michael Russo, Cheng Zhang, Malte F. Jung, François Guimbretière  
           *CHI ’23*
         
