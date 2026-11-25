@@ -4,6 +4,10 @@ summary: "ProxyPilot investigates how remote collaborators can delegate and recl
 date: 2026-11-25
 featured: false
 draft: false
+image:
+  focal_point: Center
+  preview_only: false
+  caption: 'ProxyPilot supports transitions between AI-assisted navigation and direct user control.'
 tags:
   - Work in Progress
 ---
