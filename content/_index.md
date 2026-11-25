@@ -76,13 +76,11 @@ sections:
 
         Exploring augmented reality with the repertoire of Martha Graham.
 
-        **Make My Body: Robot Design Workshop (2026)**
+        **Make My Body: Robot Design Workshop** · Cornell Bowers CIS · October 27–28, 2026
 
         Lead organizer of a hands-on workshop where participants co-designed a robot's body through conversation.
 
-        **NEW@Graham: Graham & Tech (2025)** — Invited talk at Martha Graham School, New York.
-
-        **XR Monthly: Augmented Reality+Dance (2024)** — Invited talk at Cornell Tech XR Collaboratory.
+        **[NEW@Graham: Graham & Tech (2025)](https://www.dance.nyc/for-audiences/community-calendar/view/NEWGraham-Graham-and-Tech/2025-03-18/)** — Invited talk at Martha Graham School, New York, March 2025. Interactive 3D experiences of Martha Graham choreography.
 
         [![Art+Tech Exhibition](https://as.cornell.edu/sites/default/files/styles/6_4_large/public/2024-12/20241206-milstein-art-and-tech-112-small.jpeg?h=95857c9c&itok=yx14mE_K)](https://news.cornell.edu/stories/2024/12/exhibit-highlights-arttech-intersections-student-work)
 
@@ -96,7 +94,6 @@ sections:
 
         Frame-by-frame analysis of visual gender representation in Korean films.
 
-        **[Creative Code Exhibition: Quiet Standing (2019)](https://nabi.or.kr/)**
   - block: markdown
     id: teaching
     content:
