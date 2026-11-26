@@ -162,10 +162,10 @@ sections:
       text: |
         **Cornell University — Teaching Assistant (2023–Present)**
 
-        - [INFO 6520: Human–Computer Interaction Graduate Studio](https://classes.cornell.edu/browse/roster/FA25/class/INFO/6520)
+        - [INFO 6520: Human–Computer Interaction Graduate Studio](https://classes.cornell.edu/browse/roster/FA26/class/INFO/6520)
         - [INFO 5321: Introduction to Rapid Prototyping and Physical Computing](https://classes.cornell.edu/browse/roster/FA26/class/INFO/5321)
-        - [INFO 3450: Human–Computer Interaction Design](https://classes.cornell.edu/browse/roster/FA26/class/INFO/3450)
-        - [INFO 2950: Introduction to Data Science](https://classes.cornell.edu/browse/roster/FA26/class/INFO/2950)
+        - [INFO 3450: Human–Computer Interaction Design](https://classes.cornell.edu/browse/roster/FA25/class/INFO/3450)
+        - [INFO 2950: Introduction to Data Science](https://classes.cornell.edu/browse/roster/SP23/class/INFO/2950)
 
         **KAIST — Teaching Assistant (2017–2018)**
 
