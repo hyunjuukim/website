@@ -186,3 +186,10 @@ html:not(.dark) #section-resume-biography-3 a.bio-social-icon:hover,html:not(.da
 :is(#papers,#work-in-progress) .featured-research-image .featured-research-links {display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin-top:14px;font-size:0;}
 :is(#papers,#work-in-progress) .featured-research-image .featured-research-links a {display:inline-flex;align-items:center;justify-content:center;min-width:72px;padding:7px 15px;border-radius:6px;background:#A67C52;color:#fff!important;font-size:.85rem;font-weight:600;text-decoration:none!important;transition:background-color .2s;}
 :is(#papers,#work-in-progress) .featured-research-image .featured-research-links a:hover,:is(#papers,#work-in-progress) .featured-research-image .featured-research-links a:focus-visible {background:#503426;}
+
+/* Interactive activity cards */
+#awards .activity-grid article {transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background-color .2s ease;}
+#awards .activity-grid article:hover,#awards .activity-grid article:focus-within {transform:translateY(-4px);border-color:#A67C52 !important;box-shadow:0 8px 22px #50342620 !important;}
+html:not(.dark) #awards .activity-grid article:hover,html:not(.dark) #awards .activity-grid article:focus-within {background:#fcf7f1 !important;}
+#awards .activity-grid article > a {cursor:pointer;}
+@media(prefers-reduced-motion:reduce){#awards .activity-grid article {transition:none;}#awards .activity-grid article:hover,#awards .activity-grid article:focus-within {transform:none;}}
