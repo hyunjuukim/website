@@ -8,26 +8,35 @@ tags:
   - Work in Progress
 ---
 
-*Manuscript in preparation*
-
-Make My Body explores human–robot co-design through conversations between people and a robot about its own physical embodiment.
+![Make My Body Halloween robot design workshop poster](/website/media/make-my-body.png)
 
 ## About the workshop
 
-Make My Body was a hands-on Halloween-themed robot design workshop at Cornell Bowers CIS. Participants were invited to build a scary, silly or social robot body while interacting with a conversational robot face. Materials were provided, no prior experience was required, and participants could drop in.
+Make My Body! was a hands-on Halloween robot design workshop at Cornell where participants were invited to create a physical body for an expressive robot face. Using craft materials and prototyping tools, they could make a scary, silly, or social robot of their own design.
 
-## What participants did
+The workshop was open to everyone, with no prior robotics or design experience required. Materials and tools were provided, and participants could drop in at any time during either session.
 
-Participants developed physical bodies for robots while discussing design choices with the robot. The workshop explored how a robot’s expressed preferences might influence human design decisions, and how people negotiate embodiment, identity and compromise with a conversational agent.
+## When and where
 
-## Event details
+| Date | Time | Location |
+| --- | --- | --- |
+| Tuesday, October 27, 2026 | 3:30–6:30 PM | CIS 142 |
+| Wednesday, October 28, 2026 | 2:30–4:30 PM | CIS 350 |
 
-- Lead organizer: Hyunju Kim
-- October 27, 2026, 3:30–6:30 PM — CIS 142
-- October 28, 2026, 2:30–4:30 PM — CIS 350
+## Robot design and Halloween competition
 
-![Make My Body workshop poster](/website/media/make-my-body.png)
+Participants could enter their finished robots in the Peerbots Halloween Competition for a chance to win cash prizes. People with pre-built robots were also welcome to bring them for display and competition, and could take them home afterward.
+
+Volunteers were invited to help participants with making and robot design, or assist the organizers in testing a conversational agent that supported the design process.
 
 ## Research in progress
 
-**Make My Body: When a Robot Talks with Its Maker About Its Own Body** — manuscript in preparation. The research investigates the role of conversational robots in the collaborative design of their own bodies.
+**Make My Body: When a Robot Talks with Its Maker About Its Own Body**
+
+This research explores human–robot co-design: what happens when a robot can participate in conversations about the design of its own body? We investigate how people respond to a robot’s expressed preferences and negotiate design decisions, identity, and physical embodiment.
+
+*Manuscript in preparation.*
+
+## Acknowledgments
+
+With support from Cornell Bowers Student Services and the Department of Information Science.
