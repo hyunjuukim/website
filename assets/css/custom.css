@@ -162,3 +162,18 @@ html:not(.dark) ::selection {background:#ead6c4;color:#39271b;}
 #section-resume-biography-3 a.bio-social-icon:hover,#section-resume-biography-3 a.bio-social-icon:focus-visible {background:#805a40;color:#fff;transform:translateY(-2px);}
 .dark #section-resume-biography-3 a.bio-social-icon {background:#49362b;color:#f5e9dd;}
 .dark #section-resume-biography-3 a.bio-social-icon:hover,.dark #section-resume-biography-3 a.bio-social-icon:focus-visible {background:#d6b89f;color:#39271b;}
+
+
+#work-in-progress :is(.container,.max-w-prose,.max-w-screen-md,.max-w-screen-lg,.max-w-3xl,.max-w-4xl,.prose) {width:100% !important;max-width:76rem !important;margin-inline:auto;}
+#work-in-progress .featured-research-row {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2rem;align-items:start;padding:2rem 0;border-bottom:1px solid #b9a99b55;}
+#work-in-progress .featured-research-image img {display:block;width:100%;height:auto;object-fit:contain;margin:0 !important;background:transparent;}
+#work-in-progress .featured-research-label {font-size:.8rem;font-weight:700;display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;}
+#work-in-progress .featured-research-award {border:1px solid currentColor;border-radius:999px;padding:.2rem .65rem;font-size:.75rem;}
+#work-in-progress .featured-research-copy h3 {font-size:1.35rem;line-height:1.35;margin:.6rem 0 !important;}
+#work-in-progress .featured-research-authors {font-size:.9rem;opacity:.85;line-height:1.5;}
+#work-in-progress .featured-research-copy p {font-size:1rem;line-height:1.65;margin:1rem 0 !important;}
+#work-in-progress .featured-research-links {font-size:.85rem;font-weight:600;}
+@media(max-width:700px){#work-in-progress .featured-research-row {grid-template-columns:1fr;gap:1rem;padding:1.5rem 0;}}
+
+
+#work-in-progress .featured-research-authors {display:block !important;}
