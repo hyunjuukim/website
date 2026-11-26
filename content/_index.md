@@ -112,7 +112,7 @@ sections:
         
         - **MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces**  
           Cheng Yao Wang, **Hyunju Kim**, Payod Panda, Eyal Ofek, Mar Gonzalez-Franco, Andrea Stevenson Won  
-          *ISMAR-Adjunct ’24* · [Microsoft Research](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)
+          *ISMAR-Adjunct ’24* · [IEEE Xplore](https://ieeexplore.ieee.org/document/10765238)
         
         - **AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations**  
           Cheng Yao Wang, Eyal Ofek, **Hyunju Kim**, Payod Panda, Andrea Stevenson Won, Mar Gonzalez-Franco  
