@@ -26,10 +26,11 @@ links:
     url: "https://x.com/hyunjus_twit"
     label: "X"
 interests:
-  - "Remote Collaboration"
-  - "Telepresence"
-  - "XR Interaction"
-  - "Human–Robot Interaction"
+  - Remote Collaboration
+  - Telepresence Robots
+  - Extended Reality
+  - Human-Robot Interaction
+  - Embodied AI
 education:
   - degree: "Ph.D. in Information Science"
     institution: "Cornell University"
