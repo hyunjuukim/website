@@ -15,7 +15,10 @@ sections:
       title: 'Bio'
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: |
+        Hello! I am a Ph.D. candidate in [**Information Science**](https://infosci.cornell.edu/) at Cornell University, advised by [**François Guimbretière**](https://infosci.cornell.edu/people/francois-guimbretiere), with [**Malte Jung**](https://bowers.cornell.edu/people/malte-f-jung) and [**Susan Fussell**](https://bowers.cornell.edu/people/susan-fussell) serving on my dissertation committee.
+        
+        My research explores how embodied technologies can support collaborative activities across distance. I build and study telepresence robots, XR avatars, and AI agents that act on people’s behalf, focusing on how these technologies enable people to coordinate, communicate, and reflect together.
       show_education: false
       headings:
         about: ''
