@@ -48,7 +48,6 @@ sections:
         <div class="featured-research-list">
         <article class="featured-research-row"><div class="featured-research-image"><img src="/website/publications/comparative-study-of-robots-and-avatars/Moneyshot.png" alt="Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">CSCW 2026</div><h3>Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars</h3><div class="featured-research-authors"><strong>Hyunju Kim</strong>, Yeonju Jang, Mose Sakashita, Brandon Woodard, Yuki Suwabe, Danielle Ihechisim Imogu, Xiaozhen Liu, Guy Hoffman, François Guimbretière</div><p>Telepresence systems enable remote collaboration through physical robots or virtual avatars, yet prior comparisons have focused on technical capabilities and affordances from remote users. This overlooks how local collaborators interpret and respond to embodied actions. We conducted a within-subjects study in which participants collaborated with a remote partner embodied as either a robot or avatar across various tasks. Both embodiments supported functionally equivalent actions: navigation, gesture, object referencing, and digital tool use. Despite this parity of system functions and tasks, participants consistently interpreted and organized collaboration differently: robots invited spatially grounded coordination and were framed as assistants requiring accommodation, while avatars invited engaged discussion and were framed as active collaborators capable of reciprocal interaction. We discuss design implications for aligning embodiment choices with the relational and task-specific demands of remote collaboration.</p><div class="featured-research-links"><a href="https://dl.acm.org/doi/10.1145/3816921" target="_blank" rel="noopener">DOI</a> · <a href="https://youtu.be/uBqfn0VkqQ8" target="_blank" rel="noopener">Video</a></div></div></article>
         <article class="featured-research-row"><div class="featured-research-image"><img src="/website/publications/danxereflect-interacting-with-the-spatio-temporal-past-movements-for-embodied-reflective-choreographic-collaboration/teaser.png" alt="DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">CHI 2026 <span class="featured-research-award">Honorable Mention (Top 5%)</span></div><h3>DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration</h3><div class="featured-research-authors"><strong>Hyunju Kim</strong>, François Guimbretière, Bokyung Lee</div><p>Choreographic reflection relies on iterative dialogue, where dancers and choreographers refine movement through embodied demonstration and shared feedback in studio rehearsal. With the shift to video, this exchange becomes constrained annotations detach from the body, gestures lose spatial grounding, and subtle variations are difficult to capture. Advances in markerless motion capture enable 3D reconstruction from rehearsal video, allowing past recordings to be re-materialized for embodied interaction in XR. We present DanXeReflect, an XR system that transforms flat video into a virtual studio where movements appear as interactive avatars. Users can re-enact poses to search sequences, perform alternative revisions alongside originals, and attach annotations directly to body parts. A study with choreographers and dancers shows how these embodied interactions reposition spatio-temporal data as collaborative anchors, extending reflective dialogue beyond co-located rehearsal into asynchronous, distributed practice</p><div class="featured-research-links"><a href="https://dl.acm.org/doi/10.1145/3772318.3790808" target="_blank" rel="noopener">DOI</a> · <a href="https://youtu.be/FZyWqiVWjB4" target="_blank" rel="noopener">Video</a></div></div></article>
-        <article class="featured-research-row"><div class="featured-research-image"><img src="/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/teaser_fixed.png" alt="WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">Work in Progress</div><h3>WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence</h3><div class="featured-research-authors"><strong>Hyunju Kim</strong></div><p>WalkBeside explores navigational delegation through a VR-mediated quadruped telepresence robot that follows a local collaborator. Remote users adjust their relative position through natural room-scale movement.</p><div class="featured-research-links"><a href="https://youtu.be/U8rHEhlhTNw" target="_blank" rel="noopener">Video</a></div></div></article>
         <article class="featured-research-row"><div class="featured-research-image"><img src="/website/publications/kim2024providing/DualAwareness.png" alt="Providing Dual Awareness using Multimodal Cues for Collaborative Manipulation in Virtual Environments" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">International Journal of Human–Computer Interaction</div><h3>Providing Dual Awareness using Multimodal Cues for Collaborative Manipulation in Virtual Environments</h3><div class="featured-research-authors"><strong>Hyunju Kim</strong>, Jung Min Park</div><p>Virtual reality (VR) collaborative manipulation requires a proper understanding of the user’s self, other collaborators, and shared objects in the virtual environment. Users must be aware of the movements of themselves and others to coordinate their actions when they hand over an object or move it together. The awareness of collaboration plays an essential role in virtual environments. However, previous studies have focused on providing awareness only for cooperative manipulation. This study proposes a novel framework for dual awareness that comprehensively manages the state of interactions between multiple users and shared virtual objects and provides distinct sensory cues to distinguish themselves from collaborators. The experimental results showed that participants could easily and quickly collaborate on manipulation using our feedback, and they also answered positively in the subjective evaluation.</p><div class="featured-research-links"><a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2188533" target="_blank" rel="noopener">DOI</a></div></div></article>
         </div>
   - block: markdown
@@ -56,18 +55,15 @@ sections:
     content:
       title: Work in Progress
       text: |
+        <div class="featured-research-list">
+        <article class="featured-research-row"><div class="featured-research-image"><img src="/website/projects/proxypilot/featured.png" alt="ProxyPilot research system" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">Manuscript in preparation</div><h3>ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration</h3><p>ProxyPilot explores how remote collaborators delegate navigation, viewpoint adjustment, and gestures to an AI-assisted telepresence robot while retaining the ability to reclaim control.</p></div></article>
+        <article class="featured-research-row"><div class="featured-research-image"><img src="/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/teaser_fixed.png" alt="WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence" loading="lazy"></div><div class="featured-research-copy"><div class="featured-research-label">Manuscript in preparation</div><h3>WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence</h3><div class="featured-research-authors"><strong>Hyunju Kim</strong></div><p>WalkBeside explores navigational delegation through a VR-mediated quadruped telepresence robot that follows a local collaborator. Remote users adjust their relative position through natural room-scale movement.</p><div class="featured-research-links"><a href="https://youtu.be/U8rHEhlhTNw" target="_blank" rel="noopener">Video</a></div></div></article>
+        </div>
+
         - **Replicating the Design Space of Rendered Robot Faces**  
           *Under review, HRI 2027 Short Contributions*  
           Replicated a foundational robot-face perception study with 68 new participants, developing open-source face assets and a reusable web-based evaluation framework.
-        
-        - **[ProxyPilot: Context-Adaptive Delegation of Robot Body Control for Agentic Telepresence Collaboration](/website/projects/proxypilot/)**  
-          *Manuscript in preparation*  
-          Developed an AI-assisted telepresence system that enables remote users to delegate and reclaim robot body control, supporting transitions between user control and autonomous behavior.
-        
-        - **[WalkBeside: Designing Navigational Delegation for a Semi-Autonomous Robot in Embodied Telepresence](/website/publications/walking-together-remote-co-navigation-with-embodied-telepresence/)**  
-          *Manuscript in preparation*  
-          Developed a VR-mediated quadruped telepresence system that autonomously follows a local collaborator while allowing the remote user to control their relative position.
-        
+
         - **[Make My Body: When a Robot Talks with Its Maker About Its Own Body](/website/projects/make-my-body/)**  
           *Manuscript in preparation*  
           Investigated human–robot co-design through workshops in which participants constructed a robot’s body while negotiating design decisions with a conversational robot agent.
@@ -78,12 +74,12 @@ sections:
       text: |
         ### Peer-Reviewed Full Papers
         
-        - **[DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration](/website/publications/danxereflect-interacting-with-the-spatio-temporal-past-movements-for-embodied-reflective-choreographic-collaboration/)**  
+        - **DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration**  
           **Hyunju Kim**, François Guimbretière, Bokyung Lee  
           *CHI ’26 · Honorable Mention (Top 5%)*  
           [Paper](https://doi.org/10.1145/3772318.3790808) · [Video](https://youtu.be/FZyWqiVWjB4)
         
-        - **[Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars](/website/publications/comparative-study-of-robots-and-avatars/)**  
+        - **Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars**  
           **Hyunju Kim**, Yeonju Jang, Mose Sakashita, Brandon Woodard, Yuki Suwabe, Danielle Ihechisim Imogu, Xiaozhen Liu, Guy Hoffman, François Guimbretière  
           *PACM HCI (CSCW ’26)*  
           [Paper](https://doi.org/10.1145/3816921) · [Video](https://youtu.be/uBqfn0VkqQ8)
@@ -93,54 +89,54 @@ sections:
           *Computers in Human Behavior Reports · 2026*  
           [Paper](https://doi.org/10.1016/j.chbr.2026.101437)
         
-        - **[Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments](/website/publications/kim2024providing/)**  
+        - **Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments**  
           **Hyunju Kim**, Jung-Min Park  
           *International Journal of Human–Computer Interaction · 2023*  
           [Paper](https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2188533)
         
-        - **[VRoxy: Wide-Area Collaboration From an Office Using a VR-Driven Robotic Proxy](/website/publications/vroxy2023/)**  
+        - **VRoxy: Wide-Area Collaboration From an Office Using a VR-Driven Robotic Proxy**  
           Mose Sakashita, **Hyunju Kim**, Brandon Woodard, Ruidong Zhang, François Guimbretière  
           *UIST ’23*  
           [Paper](https://doi.org/10.1145/3586183.3606743) · [Video](https://www.youtube.com/watch?v=1hpaASC_Xls)
         
-        - **[ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment](/website/publications/remotion2023/)**  
+        - **ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment**  
           Mose Sakashita, Ruidong Zhang, Xiaoyi Li, **Hyunju Kim**, Michael Russo, Cheng Zhang, Malte F. Jung, François Guimbretière  
           *CHI ’23*  
           [Paper](https://dl.acm.org/doi/10.1145/3544548.3580699) · [Video](https://www.youtube.com/watch?v=SaJQQTBBbFw)
         
-        - **[Human-Centered Dynamic Service Scheduling Approach in Multi-Agent Environments](/website/publications/jung2022human/)**  
+        - **Human-Centered Dynamic Service Scheduling Approach in Multi-Agent Environments**  
           Yunseo Jung, **Hyunju Kim**, Kyung-Duk Suh, Jung-Min Park  
           *Applied Sciences · 2022*  
           [Paper](https://www.mdpi.com/2076-3417/12/21/10850)
         
-        - **[RealityBrush: An AR Authoring System that Captures and Utilizes Kinetic Properties of Everyday Objects](/website/publications/kim2021realitybrush/)**  
+        - **RealityBrush: An AR Authoring System that Captures and Utilizes Kinetic Properties of Everyday Objects**  
           **Hyunju Kim**, Sanghwa Hong, Junki Kim, Taesoo Jang, Woontack Woo, Seongkook Heo, Byungjoo Lee  
           *Multimedia Tools and Applications · 2021*  
           [Paper](https://link.springer.com/article/10.1007/s11042-020-09332-4) · [Video](https://youtu.be/y5rFqXztRdk)
         
         ### Extended Abstracts & Posters
         
-        - **[Reframing Wizard-of-Oz for Proxy-Mediated Interaction](/website/publications/reframing2026/)**  
+        - **Reframing Wizard-of-Oz for Proxy-Mediated Interaction**  
           Jieun Kim\* and **Hyunju Kim\*** (\* Co-first authors)  
           *CHI EA ’26*  
           [Paper](https://doi.org/10.1145/3772363.3799017)
         
-        - **[MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces](/website/publications/mrtransformer2024/)**  
+        - **MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces**  
           Cheng Yao Wang, **Hyunju Kim**, Payod Panda, Eyal Ofek, Mar Gonzalez-Franco, Andrea Stevenson Won  
           *ISMAR-Adjunct ’24*  
           [Paper](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)
         
-        - **[AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations](/website/publications/avatarpilot2024/)**  
+        - **AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations**  
           Cheng Yao Wang, Eyal Ofek, **Hyunju Kim**, Payod Panda, Andrea Stevenson Won, Mar Gonzalez-Franco  
           *ISMAR-Adjunct ’24*  
           [Paper](https://ieeexplore.ieee.org/document/10765138)
         
-        - **[Comparing the Impact of Professional and Automatic Closed Captions on Video-Watching Experience](/website/publications/comparing2023/)**  
+        - **Comparing the Impact of Professional and Automatic Closed Captions on Video-Watching Experience**  
           **Hyunju Kim**, Yan Tao, Chuanrui Liu, Yuzhuo Zhang, Yuxin Li  
           *CHI EA ’23*  
           [Paper](https://dl.acm.org/doi/10.1145/3544549.3585634)
         
-        - **[Button++: Designing Risk-aware Smart Buttons](/website/publications/park2018button/)**  
+        - **Button++: Designing Risk-aware Smart Buttons**  
           Eunji Park, **Hyunju Kim**, Byungjoo Lee  
           *CHI EA ’18*  
           [Paper](https://dl.acm.org/doi/10.1145/3170427.3188645)
