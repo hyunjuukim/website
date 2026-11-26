@@ -193,3 +193,8 @@ html:not(.dark) #section-resume-biography-3 a.bio-social-icon:hover,html:not(.da
 html:not(.dark) #awards .activity-grid article:hover,html:not(.dark) #awards .activity-grid article:focus-within {background:#fcf7f1 !important;}
 #awards .activity-grid article > a {cursor:pointer;}
 @media(prefers-reduced-motion:reduce){#awards .activity-grid article {transition:none;}#awards .activity-grid article:hover,#awards .activity-grid article:focus-within {transform:none;}}
+
+/* Match biography section icons and interest chips to social icon palette. */
+html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100.rounded-full,html:not(.dark) #section-resume-biography-3 span.bg-primary-100[style*="border-radius:50%"],html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full {background:#A67C52 !important;color:#fff !important;border-color:#A67C52 !important;}
+html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100 svg {color:#fff !important;}
+html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full:hover {background:#503426 !important;border-color:#503426 !important;color:#fff !important;}
