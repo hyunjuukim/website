@@ -141,3 +141,18 @@ body:has(a[href*="/publication"], a[href*="/publications"]) :is(div,section):has
 #papers .featured-research-copy p {font-size:1rem;line-height:1.65;margin:1rem 0 !important;}
 #papers .featured-research-links {font-size:.85rem;font-weight:600;}
 @media(max-width:700px){#papers .featured-research-row {grid-template-columns:1fr;gap:1rem;padding:1.5rem 0;}}
+
+/* White canvas with warm, light-brown accents; preserve dark mode. */
+html:not(.dark), html:not(.dark) body {background:#fff !important;}
+html:not(.dark) :is(.hbb-section,.resume-biography,header,footer,.navbar) {background-color:#fff !important;}
+html:not(.dark) .hbb-section {background-image:none !important;}
+html:not(.dark) :is(#papers,#publications,#work-in-progress,#awards,#teaching,#section-resume-biography-3) a {color:#805a40;}
+html:not(.dark) #awards .activity-grid article > a {color:inherit;}
+html:not(.dark) #awards .activity-grid article {background:#fff;border-color:#e6d8cc !important;box-shadow:0 2px 8px #805a4009 !important;}
+html:not(.dark) #section-resume-biography-3 :is(.bg-primary-100,.bg-primary-50) {background-color:#f5e9dd !important;}
+html:not(.dark) #papers .featured-research-label {color:#805a40;}
+html:not(.dark) #papers .featured-research-award {background:#f5e9dd;border-color:#d6b89f;color:#805a40;}
+html:not(.dark) #papers .featured-research-row {border-color:#e6d8cc;}
+html:not(.dark) ::selection {background:#ead6c4;color:#39271b;}
+/* Keep author bylines visible in the featured list despite legacy author-card hiding. */
+#papers .featured-research-authors {display:block !important;}
