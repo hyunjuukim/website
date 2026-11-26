@@ -126,3 +126,6 @@ div[class*="share"] {
 
 /* Keep teaching course links at regular font weight. */
 #teaching li a, #teaching li a strong, #teaching li strong { font-weight: 400 !important; }
+
+/* Hide repeated author cards on publication detail pages, retaining publication metadata. */
+body:has(a[href*="/publication"], a[href*="/publications"]) :is(div,section):has(> :is(div,span,p,h2,h3,h4).uppercase):has(> a[href*="/authors/"]) { display:none !important; }
