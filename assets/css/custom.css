@@ -264,3 +264,8 @@ html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details >
 :is([role="dialog"],dialog) input::placeholder {color:#766b63!important;opacity:1;}
 :is([role="dialog"],dialog) button:hover {background:#f5e9dd!important;color:#503426!important;}
 :is([role="dialog"],dialog) :is([role="option"],[role="listbox"] a):hover {background:#f5e9dd!important;color:#503426!important;}
+
+/* Social icon labels appear above the icon on hover and keyboard focus. */
+.bio-social-icon {position:relative!important;overflow:visible!important;}
+.bio-social-icon::after {content:attr(aria-label);position:absolute;bottom:calc(100% + 9px);left:50%;transform:translateX(-50%) translateY(3px);background:#503426;color:#fff;padding:5px 9px;border-radius:5px;font-size:12px;font-weight:500;line-height:1.4;white-space:nowrap;pointer-events:none;opacity:0;visibility:hidden;z-index:50;transition:opacity .15s ease,transform .15s ease,visibility .15s;}
+.bio-social-icon:is(:hover,:focus-visible)::after {opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);}
