@@ -240,3 +240,6 @@ html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100 svg {co
 /* Filled brown resource controls distinguish actionable buttons from static badges. */
 html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details > summary > :is(span,a),html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy .featured-research-links a {background:#A67C52!important;color:#fff!important;border-color:#A67C52!important;text-decoration:none!important;}
 html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details > summary > :is(span,a):is(:hover,:focus-visible),html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy .featured-research-links a:is(:hover,:focus-visible),html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details > summary:focus-visible > span:first-child {background:#503426!important;color:#fff!important;border-color:#503426!important;}
+
+#teaching a.teaching-course-button {display:inline-flex!important;background:#A67C52!important;color:#fff!important;text-decoration:none!important;align-items:center;white-space:nowrap;}
+#teaching a.teaching-course-button:is(:hover,:focus-visible) {background:#503426!important;color:#fff!important;text-decoration:none!important;}
