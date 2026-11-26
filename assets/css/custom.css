@@ -177,3 +177,7 @@ html:not(.dark) ::selection {background:#ead6c4;color:#39271b;}
 
 
 #work-in-progress .featured-research-authors {display:block !important;}
+
+/* Social links: dark brown at rest, ochre on hover. */
+html:not(.dark) #section-resume-biography-3 a.bio-social-icon {background:#503426;color:#fff;}
+html:not(.dark) #section-resume-biography-3 a.bio-social-icon:hover,html:not(.dark) #section-resume-biography-3 a.bio-social-icon:focus-visible {background:#A67C52;color:#fff;}
