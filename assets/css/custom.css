@@ -250,3 +250,11 @@ html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details >
 #teaching .prose a.teaching-course-button {font-size:.72rem!important;padding:2px 8px!important;margin-left:6px!important;}
 #teaching :is(.prose,.max-w-prose,.max-w-screen-md,.max-w-3xl) {max-width:76rem!important;width:100%!important;}
 
+
+/* Center the compact teaching list within the page, without centering its text. */
+#teaching .prose {max-width:58rem!important;width:100%!important;margin-inline:auto!important;font-size:1.0625rem!important;}
+#teaching .prose li,#teaching .prose p {font-size:1.0625rem!important;line-height:1.65!important;}
+#teaching .prose ul {margin-block:12px 24px!important;}
+#teaching .prose li {margin-block:7px!important;}
+#teaching .prose a.teaching-course-button {font-size:.78rem!important;padding:4px 10px!important;border-radius:5px!important;}
+@media(max-width:640px){#teaching .prose li,#teaching .prose p{font-size:1rem!important;}}
