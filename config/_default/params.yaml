@@ -6,7 +6,7 @@ hugoblox:
     tagline: ""
     description: ""
   theme:
-    mode: system
+    mode: light
     pack: coffee
     colors:
       primary: "#8B5E3C"
@@ -28,7 +28,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: true
+    theme_toggle: false
   footer:
     style: minimal
     language_switcher: true
