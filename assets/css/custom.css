@@ -156,3 +156,9 @@ html:not(.dark) #papers .featured-research-row {border-color:#e6d8cc;}
 html:not(.dark) ::selection {background:#ead6c4;color:#39271b;}
 /* Keep author bylines visible in the featured list despite legacy author-card hiding. */
 #papers .featured-research-authors {display:block !important;}
+
+/* Social icons: match the circular warm accent used by Interests. */
+#section-resume-biography-3 a.bio-social-icon {display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;border-radius:50%;background:#f5e9dd;color:#805a40;transition:background-color .2s,color .2s,transform .2s;text-decoration:none;}
+#section-resume-biography-3 a.bio-social-icon:hover,#section-resume-biography-3 a.bio-social-icon:focus-visible {background:#805a40;color:#fff;transform:translateY(-2px);}
+.dark #section-resume-biography-3 a.bio-social-icon {background:#49362b;color:#f5e9dd;}
+.dark #section-resume-biography-3 a.bio-social-icon:hover,.dark #section-resume-biography-3 a.bio-social-icon:focus-visible {background:#d6b89f;color:#39271b;}
