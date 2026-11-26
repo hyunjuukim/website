@@ -249,3 +249,9 @@ html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details >
 #teaching .prose li {margin-top:.35rem!important;margin-bottom:.35rem!important;}
 #teaching .prose a.teaching-course-button {font-size:.72rem!important;padding:2px 8px!important;margin-left:6px!important;}
 #teaching :is(.prose,.max-w-prose,.max-w-screen-md,.max-w-3xl) {max-width:76rem!important;width:100%!important;}
+
+#teaching .teaching-row {display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px;align-items:center;padding:16px 0;border-bottom:1px solid #e5d8cb;}
+#teaching .teaching-name {font-size:1.05rem;font-weight:600;line-height:1.4;}
+#teaching .teaching-meta {display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.875rem;}
+#teaching .teaching-meta a.teaching-course-button {padding:5px 10px!important;margin:0!important;border-radius:5px;font-size:.75rem!important;}
+@media(max-width:640px){#teaching .teaching-row{grid-template-columns:1fr;gap:8px;}#teaching .teaching-meta{justify-content:flex-start;}}
