@@ -316,7 +316,7 @@
             <a href="{{ $linkUrl | safeURL }}" {{ $target | safeHTMLAttr }} 
                aria-label="{{ $linkLabel | default $iconName }}"
                {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
-               class="inline-flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+               class="bio-social-icon inline-flex items-center justify-center rounded-full transition-colors">
               {{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-5 h-5\"")  }}
               
             </a>
