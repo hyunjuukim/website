@@ -212,3 +212,7 @@ html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full:hove
 :is(#papers,#work-in-progress) .research-abstract-panel {clear:both;border:1px solid #d6b89f;border-radius:5px;padding:12px 15px;margin-top:8px;}
 :is(#papers,#work-in-progress) .research-abstract[open] summary {float:none;}
 :is(#papers,#work-in-progress) .research-abstract-panel p {margin:0!important;}
+
+:is(#papers,#work-in-progress) .featured-research-copy details > summary {display:flex!important;justify-content:flex-start!important;align-items:center!important;gap:8px!important;flex-wrap:wrap;}
+:is(#papers,#work-in-progress) .featured-research-copy details > summary > :is(span,a) {float:none!important;margin:0!important;align-self:center!important;}
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links {justify-content:flex-start!important;margin-top:0!important;}
