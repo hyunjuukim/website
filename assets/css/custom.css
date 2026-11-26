@@ -232,3 +232,7 @@ a[href]:not([href*="/authors/"]):not([href*="/author/"]):not(.bio-social-icon):n
 :is(a[href],button,summary,[role="button"],[role="link"],input[type="button"],input[type="submit"]):focus-visible {outline:2px solid var(--hk-focus);outline-offset:3px;}
 a[href*="/authors/"],a[href*="/author/"] {cursor:default!important;}
 @media(prefers-reduced-motion:reduce){:is(a[href],button,summary,[role="button"],[role="link"],input[type="button"],input[type="submit"]){transition:none!important;}}
+
+/* Static biography icons share the award badge palette, distinct from interactive controls. */
+html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100.rounded-full,html:not(.dark) #section-resume-biography-3 span.bg-primary-100[style*="border-radius:50%"] {background:#f5e9dd!important;color:#805a40!important;border-color:#d6b89f!important;cursor:default;}
+html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100 svg {color:#805a40!important;}
