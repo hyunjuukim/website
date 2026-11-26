@@ -155,13 +155,13 @@ sections:
       text: |
         **Cornell University — Teaching Assistant (2023–Present)**
 
-        <div class="teaching-row"><div class="teaching-name">Human–Computer Interaction Graduate Studio</div><div class="teaching-meta"><span>INFO 6520 · Fall 2026</span><a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA26/class/INFO/6520" target="_blank" rel="noopener noreferrer">Course Description ↗</a></div></div>
-        <div class="teaching-row"><div class="teaching-name">Introduction to Rapid Prototyping and Physical Computing</div><div class="teaching-meta"><span>INFO 5321 · Fall 2026</span><a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA26/class/INFO/5321" target="_blank" rel="noopener noreferrer">Course Description ↗</a></div></div>
-        <div class="teaching-row"><div class="teaching-name">Human–Computer Interaction Design</div><div class="teaching-meta"><span>INFO 3450 · Fall 2025</span><a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA25/class/INFO/3450" target="_blank" rel="noopener noreferrer">Course Description ↗</a></div></div>
-        <div class="teaching-row"><div class="teaching-name">Introduction to Data Science</div><div class="teaching-meta"><span>INFO 2950 · Spring 2023</span><a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/SP23/class/INFO/2950" target="_blank" rel="noopener noreferrer">Course Description ↗</a></div></div>
+        - INFO 6520: Human–Computer Interaction Graduate Studio <a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA26/class/INFO/6520" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;margin-left:8px;border-radius:5px;background:#A67C52;color:white;text-decoration:none;font-size:12px;vertical-align:middle;white-space:nowrap;">Course ↗</a>
+        - INFO 5321: Introduction to Rapid Prototyping and Physical Computing <a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA26/class/INFO/5321" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;margin-left:8px;border-radius:5px;background:#A67C52;color:white;text-decoration:none;font-size:12px;vertical-align:middle;white-space:nowrap;">Course ↗</a>
+        - INFO 3450: Human–Computer Interaction Design <a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/FA25/class/INFO/3450" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;margin-left:8px;border-radius:5px;background:#A67C52;color:white;text-decoration:none;font-size:12px;vertical-align:middle;white-space:nowrap;">Course ↗</a>
+        - INFO 2950: Introduction to Data Science <a class="teaching-course-button" href="https://classes.cornell.edu/browse/roster/SP23/class/INFO/2950" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;margin-left:8px;border-radius:5px;background:#A67C52;color:white;text-decoration:none;font-size:12px;vertical-align:middle;white-space:nowrap;">Course ↗</a>
 
         **KAIST — Teaching Assistant (2017–2018)**
 
-        <div class="teaching-row"><div class="teaching-name">Research Methodology of Human Behavioral Science</div><div class="teaching-meta"><span>GCT 700</span></div></div>
-        <div class="teaching-row"><div class="teaching-name">Social Networks Theory</div><div class="teaching-meta"><span>CTP 471</span></div></div>
+        - GCT 700: Research Methodology of Human Behavioral Science
+        - CTP 471: Social Networks Theory
 ---
