@@ -198,3 +198,17 @@ html:not(.dark) #awards .activity-grid article:hover,html:not(.dark) #awards .ac
 html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100.rounded-full,html:not(.dark) #section-resume-biography-3 span.bg-primary-100[style*="border-radius:50%"],html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full {background:#A67C52 !important;color:#fff !important;border-color:#A67C52 !important;}
 html:not(.dark) #section-resume-biography-3 :is(div,span).bg-primary-100 svg {color:#fff !important;}
 html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full:hover {background:#503426 !important;border-color:#503426 !important;color:#fff !important;}
+
+/* Compact research rows with expandable abstracts in the right column. */
+:is(#papers,#work-in-progress) .featured-research-copy {display:flow-root;}
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links {display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-top:12px;}
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links:empty {display:none;}
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links a,:is(#papers,#work-in-progress) .research-abstract summary {display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:6px 12px;border:1px solid #d6b89f;border-radius:5px;background:#fff;color:#805a40!important;font-size:.85rem;font-weight:600;text-decoration:none!important;cursor:pointer;transition:background .2s,color .2s;}
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links a:hover,:is(#papers,#work-in-progress) .research-abstract summary:hover {background:#503426;color:#fff!important;border-color:#503426;}
+:is(#papers,#work-in-progress) .research-abstract {margin-top:12px;}
+:is(#papers,#work-in-progress) .research-abstract summary {list-style:none;float:left;}
+:is(#papers,#work-in-progress) .research-abstract summary::-webkit-details-marker {display:none;}
+:is(#papers,#work-in-progress) .research-abstract[open] summary {background:#A67C52;color:#fff!important;}
+:is(#papers,#work-in-progress) .research-abstract-panel {clear:both;border:1px solid #d6b89f;border-radius:5px;padding:12px 15px;margin-top:8px;}
+:is(#papers,#work-in-progress) .research-abstract[open] summary {float:none;}
+:is(#papers,#work-in-progress) .research-abstract-panel p {margin:0!important;}
