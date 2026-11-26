@@ -181,3 +181,8 @@ html:not(.dark) ::selection {background:#ead6c4;color:#39271b;}
 /* Social links: ochre at rest, dark brown on hover. */
 html:not(.dark) #section-resume-biography-3 a.bio-social-icon {background:#A67C52;color:#fff;}
 html:not(.dark) #section-resume-biography-3 a.bio-social-icon:hover,html:not(.dark) #section-resume-biography-3 a.bio-social-icon:focus-visible {background:#503426;color:#fff;}
+
+/* Research resource buttons beneath teaser images. */
+:is(#papers,#work-in-progress) .featured-research-image .featured-research-links {display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin-top:14px;font-size:0;}
+:is(#papers,#work-in-progress) .featured-research-image .featured-research-links a {display:inline-flex;align-items:center;justify-content:center;min-width:72px;padding:7px 15px;border-radius:6px;background:#A67C52;color:#fff!important;font-size:.85rem;font-weight:600;text-decoration:none!important;transition:background-color .2s;}
+:is(#papers,#work-in-progress) .featured-research-image .featured-research-links a:hover,:is(#papers,#work-in-progress) .featured-research-image .featured-research-links a:focus-visible {background:#503426;}
