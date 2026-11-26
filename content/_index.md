@@ -79,69 +79,84 @@ sections:
       text: |
         ### Peer-Reviewed Full Papers
         
-        - **[DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration](https://doi.org/10.1145/3772318.3790808)**  
+        - **[DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration](/website/publications/danxereflect-interacting-with-the-spatio-temporal-past-movements-for-embodied-reflective-choreographic-collaboration/)**  
           **Hyunju Kim**, François Guimbretière, Bokyung Lee  
-          *CHI ’26 · Honorable Mention (Top 5%)*
+          *CHI ’26 · Honorable Mention (Top 5%)*  
+          [Paper](https://doi.org/10.1145/3772318.3790808) · [Video](https://youtu.be/FZyWqiVWjB4)
         
-        - **[Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars](https://doi.org/10.1145/3816921)**  
+        - **[Designing Embodied Telepresence for Remote Collaboration: A Comparative Study of Robots and Avatars](/website/publications/comparative-study-of-robots-and-avatars/)**  
           **Hyunju Kim**, Yeonju Jang, Mose Sakashita, Brandon Woodard, Yuki Suwabe, Danielle Ihechisim Imogu, Xiaozhen Liu, Guy Hoffman, François Guimbretière  
-          *PACM HCI (CSCW ’26)*
+          *PACM HCI (CSCW ’26)*  
+          [Paper](https://doi.org/10.1145/3816921) · [Video](https://youtu.be/uBqfn0VkqQ8)
         
-        - **[The Effects of Avatar Gender on Ratings of Reconstructed Teaching](https://doi.org/10.1016/j.chbr.2026.101437)**  
+        - **The Effects of Avatar Gender on Ratings of Reconstructed Teaching**  
           Yilu Sun, Yejoon Yoo, **Hyunju Kim**, Xianyi Li, Rimjhim Singh, Yuqing Wu, Wei Yang, Aleshia Hayes, Andrea Stevenson Won  
-          *Computers in Human Behavior Reports · 2026*
+          *Computers in Human Behavior Reports · 2026*  
+          [Paper](https://doi.org/10.1016/j.chbr.2026.101437)
         
-        - **[Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments](https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2188533)**  
+        - **[Providing Dual Awareness Using Multimodal Cues for Collaborative Manipulation in Virtual Environments](/website/publications/kim2024providing/)**  
           **Hyunju Kim**, Jung-Min Park  
-          *International Journal of Human–Computer Interaction · 2023*
+          *International Journal of Human–Computer Interaction · 2023*  
+          [Paper](https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2188533)
         
-        - **[VRoxy: Wide-Area Collaboration From an Office Using a VR-Driven Robotic Proxy](https://doi.org/10.1145/3586183.3606743)**  
+        - **[VRoxy: Wide-Area Collaboration From an Office Using a VR-Driven Robotic Proxy](/website/publications/vroxy2023/)**  
           Mose Sakashita, **Hyunju Kim**, Brandon Woodard, Ruidong Zhang, François Guimbretière  
-          *UIST ’23*
+          *UIST ’23*  
+          [Paper](https://doi.org/10.1145/3586183.3606743) · [Video](https://www.youtube.com/watch?v=1hpaASC_Xls)
         
-        - **[ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment](https://dl.acm.org/doi/10.1145/3544548.3580699)**  
+        - **[ReMotion: Supporting Remote Collaboration in Open Space with Automatic Robotic Embodiment](/website/publications/remotion2023/)**  
           Mose Sakashita, Ruidong Zhang, Xiaoyi Li, **Hyunju Kim**, Michael Russo, Cheng Zhang, Malte F. Jung, François Guimbretière  
-          *CHI ’23*
+          *CHI ’23*  
+          [Paper](https://dl.acm.org/doi/10.1145/3544548.3580699) · [Video](https://www.youtube.com/watch?v=SaJQQTBBbFw)
         
-        - **[Human-Centered Dynamic Service Scheduling Approach in Multi-Agent Environments](https://www.mdpi.com/2076-3417/12/21/10850)**  
+        - **[Human-Centered Dynamic Service Scheduling Approach in Multi-Agent Environments](/website/publications/jung2022human/)**  
           Yunseo Jung, **Hyunju Kim**, Kyung-Duk Suh, Jung-Min Park  
-          *Applied Sciences · 2022*
+          *Applied Sciences · 2022*  
+          [Paper](https://www.mdpi.com/2076-3417/12/21/10850)
         
-        - **[RealityBrush: An AR Authoring System that Captures and Utilizes Kinetic Properties of Everyday Objects](https://link.springer.com/article/10.1007/s11042-020-09332-4)**  
+        - **[RealityBrush: An AR Authoring System that Captures and Utilizes Kinetic Properties of Everyday Objects](/website/publications/kim2021realitybrush/)**  
           **Hyunju Kim**, Sanghwa Hong, Junki Kim, Taesoo Jang, Woontack Woo, Seongkook Heo, Byungjoo Lee  
-          *Multimedia Tools and Applications · 2021*
+          *Multimedia Tools and Applications · 2021*  
+          [Paper](https://link.springer.com/article/10.1007/s11042-020-09332-4) · [Video](https://youtu.be/y5rFqXztRdk)
         
         ### Extended Abstracts & Posters
         
-        - **[Reframing Wizard-of-Oz for Proxy-Mediated Interaction](https://doi.org/10.1145/3772363.3799017)**  
+        - **[Reframing Wizard-of-Oz for Proxy-Mediated Interaction](/website/publications/reframing2026/)**  
           Jieun Kim\* and **Hyunju Kim\*** (\* Co-first authors)  
-          *CHI EA ’26*
+          *CHI EA ’26*  
+          [Paper](https://doi.org/10.1145/3772363.3799017)
         
-        - **[MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)**  
+        - **[MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces](/website/publications/mrtransformer2024/)**  
           Cheng Yao Wang, **Hyunju Kim**, Payod Panda, Eyal Ofek, Mar Gonzalez-Franco, Andrea Stevenson Won  
-          *ISMAR-Adjunct ’24*
+          *ISMAR-Adjunct ’24*  
+          [Paper](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)
         
-        - **[AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations](https://ieeexplore.ieee.org/document/10765138)**  
+        - **[AvatarPilot: Decoupling One-to-One Motions from Their Semantics with Weighted Interpolations](/website/publications/avatarpilot2024/)**  
           Cheng Yao Wang, Eyal Ofek, **Hyunju Kim**, Payod Panda, Andrea Stevenson Won, Mar Gonzalez-Franco  
-          *ISMAR-Adjunct ’24*
+          *ISMAR-Adjunct ’24*  
+          [Paper](https://ieeexplore.ieee.org/document/10765138)
         
-        - **[Comparing the Impact of Professional and Automatic Closed Captions on Video-Watching Experience](https://dl.acm.org/doi/10.1145/3544549.3585634)**  
+        - **[Comparing the Impact of Professional and Automatic Closed Captions on Video-Watching Experience](/website/publications/comparing2023/)**  
           **Hyunju Kim**, Yan Tao, Chuanrui Liu, Yuzhuo Zhang, Yuxin Li  
-          *CHI EA ’23*
+          *CHI EA ’23*  
+          [Paper](https://dl.acm.org/doi/10.1145/3544549.3585634)
         
-        - **[Button++: Designing Risk-aware Smart Buttons](https://dl.acm.org/doi/10.1145/3170427.3188645)**  
+        - **[Button++: Designing Risk-aware Smart Buttons](/website/publications/park2018button/)**  
           Eunji Park, **Hyunju Kim**, Byungjoo Lee  
-          *CHI EA ’18*
+          *CHI EA ’18*  
+          [Paper](https://dl.acm.org/doi/10.1145/3170427.3188645)
         
         ### Other Publications
         
-        - **[Who Moved the Robot? Contribution Dissolution in Agentic Telepresence](https://kashifimteyaza.github.io/agent-mediated-collaboration/papers.html)**  
+        - **Who Moved the Robot? Contribution Dissolution in Agentic Telepresence**  
           **Hyunju Kim**  
-          *Nobody Did This, CSCW ’26 Workshop*
+          *Nobody Did This, CSCW ’26 Workshop*  
+          [Workshop Paper](https://kashifimteyaza.github.io/agent-mediated-collaboration/papers.html)
         
-        - **[SoundFleXR: Selectively Constraining Axes of Audio Rendering Presentations](https://arxiv.org/abs/2611.28020)**  
+        - **SoundFleXR: Selectively Constraining Axes of Audio Rendering Presentations**  
           Brandon Woodard, **Hyunju Kim**, Hyunsung Cho, David Lindlbauer, Rhonda Wilson, Joseph LaViola Jr.  
-          *arXiv preprint · 2026*
+          *arXiv preprint · 2026*  
+          [Paper](https://arxiv.org/abs/2611.28020)
   - block: markdown
     id: awards
     content:
