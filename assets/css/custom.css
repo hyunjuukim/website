@@ -216,3 +216,19 @@ html:not(.dark) #section-resume-biography-3 span.bg-primary-50.rounded-full:hove
 :is(#papers,#work-in-progress) .featured-research-copy details > summary {display:flex!important;justify-content:flex-start!important;align-items:center!important;gap:8px!important;flex-wrap:wrap;}
 :is(#papers,#work-in-progress) .featured-research-copy details > summary > :is(span,a) {float:none!important;margin:0!important;align-self:center!important;}
 :is(#papers,#work-in-progress) .featured-research-copy .featured-research-links {justify-content:flex-start!important;margin-top:0!important;}
+
+/* Site-wide interaction feedback: only actionable elements. */
+:root {--hk-hover:#503426;--hk-hover-text:#fff;--hk-focus:#A67C52;}
+.dark {--hk-hover:#d6b89f;--hk-hover-text:#39271b;}
+:is(a[href],button,summary,[role="button"],[role="link"],input[type="button"],input[type="submit"]):not(:disabled):not([aria-disabled="true"]) {cursor:pointer;transition:color .2s ease,background-color .2s ease,border-color .2s ease,box-shadow .2s ease;}
+a[href]:not([href*="/authors/"]):not([href*="/author/"]):not(.bio-social-icon):not(.activity-grid article > a):is(:hover,:focus-visible) {color:var(--hk-hover)!important;text-decoration:underline!important;text-underline-offset:3px;}
+:is(button, [role="button"],input[type="button"],input[type="submit"]):not(:disabled):not([aria-disabled="true"]):is(:hover,:focus-visible),
+:is(#papers,#work-in-progress) .featured-research-copy details > summary > a:is(:hover,:focus-visible),
+:is(#papers,#work-in-progress) .featured-research-copy details > summary:hover > span:first-child,
+:is(#papers,#work-in-progress) .featured-research-copy details > summary:focus-visible > span:first-child,
+:is(#papers,#work-in-progress) .featured-research-copy .featured-research-links a:is(:hover,:focus-visible),
+:is(#papers,#work-in-progress) .research-abstract summary:is(:hover,:focus-visible) {background:var(--hk-hover)!important;color:var(--hk-hover-text)!important;border-color:var(--hk-hover)!important;text-decoration:none!important;}
+:is(#papers,#work-in-progress) .featured-research-copy details > summary:has(a:hover) > span:first-child {background:transparent!important;color:inherit!important;border-color:#d6b89f!important;}
+:is(a[href],button,summary,[role="button"],[role="link"],input[type="button"],input[type="submit"]):focus-visible {outline:2px solid var(--hk-focus);outline-offset:3px;}
+a[href*="/authors/"],a[href*="/author/"] {cursor:default!important;}
+@media(prefers-reduced-motion:reduce){:is(a[href],button,summary,[role="button"],[role="link"],input[type="button"],input[type="submit"]){transition:none!important;}}
