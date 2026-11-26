@@ -258,3 +258,9 @@ html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details >
 #teaching .prose li {margin-block:7px!important;}
 #teaching .prose a.teaching-course-button {font-size:.78rem!important;padding:4px 10px!important;border-radius:5px!important;}
 @media(max-width:640px){#teaching .prose li,#teaching .prose p{font-size:1rem!important;}}
+
+/* Search dialog: readable input and visible focus without filled hover on utility controls. */
+:is([role="dialog"],dialog) input:is([type="search"],[type="text"],[role="combobox"]) {font-size:1rem!important;color:#29201a!important;min-height:44px;}
+:is([role="dialog"],dialog) input::placeholder {color:#766b63!important;opacity:1;}
+:is([role="dialog"],dialog) button:hover {background:#f5e9dd!important;color:#503426!important;}
+:is([role="dialog"],dialog) :is([role="option"],[role="listbox"] a):hover {background:#f5e9dd!important;color:#503426!important;}
