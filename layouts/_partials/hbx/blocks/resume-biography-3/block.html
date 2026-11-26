@@ -532,11 +532,11 @@
           </div>
         </div>
         {{ end }}
-        <div class="mt-8">
+        <div style="margin-top:12px;">
           {{/* Last updated: `last_updated` in block content, else site build date */}}
           {{ $last_updated := now }}
           {{ with index $content "last_updated" }}{{ $last_updated = time.AsTime . }}{{ end }}
-          <p class="mt-6 text-sm text-gray-500 dark:text-gray-400">
+          <p class="text-sm text-gray-500 dark:text-gray-400" style="margin:0;">
             Last updated: <time datetime="{{ $last_updated | time.Format "2006-01-02" }}">{{ $last_updated | time.Format "January 2, 2006" }}</time>
           </p>
         </div>
