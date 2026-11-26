@@ -243,3 +243,9 @@ html:not(.dark) :is(#papers,#work-in-progress) .featured-research-copy details >
 
 #teaching a.teaching-course-button {display:inline-flex!important;background:#A67C52!important;color:#fff!important;text-decoration:none!important;align-items:center;white-space:nowrap;}
 #teaching a.teaching-course-button:is(:hover,:focus-visible) {background:#503426!important;color:#fff!important;text-decoration:none!important;}
+
+/* Compact teaching typography, preserving official course names. */
+#teaching :is(.prose,.prose li,.prose p) {font-size:1rem!important;line-height:1.55!important;}
+#teaching .prose li {margin-top:.35rem!important;margin-bottom:.35rem!important;}
+#teaching .prose a.teaching-course-button {font-size:.72rem!important;padding:2px 8px!important;margin-left:6px!important;}
+#teaching :is(.prose,.max-w-prose,.max-w-screen-md,.max-w-3xl) {max-width:76rem!important;width:100%!important;}
