@@ -114,7 +114,7 @@ sections:
         ### Extended Abstracts & Posters
         
         - **[Reframing Wizard-of-Oz for Proxy-Mediated Interaction](https://doi.org/10.1145/3772363.3799017)**  
-          Jieun Kim and **Hyunju Kim** (co-first authors)  
+          Jieun Kim\* and **Hyunju Kim\*** (\* Co-first authors)  
           *CHI EA ’26*
         
         - **[MRTransformer: Transforming Avatar Non-verbal Behavior for Remote MR Collaboration in Incongruent Spaces](https://www.microsoft.com/en-us/research/publication/mrtransformer-transforming-avatar-non-verbal-behavior-for-remote-mr-collaboration-in-incongruent-spaces/)**  
