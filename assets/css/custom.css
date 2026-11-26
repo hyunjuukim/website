@@ -132,7 +132,7 @@ body:has(a[href*="/publication"], a[href*="/publications"]) :is(div,section):has
 
 /* Featured research: full abstracts and direct resource links */
 #papers :is(.container,.max-w-prose,.max-w-screen-md,.max-w-screen-lg,.max-w-3xl,.max-w-4xl,.prose) {width:100% !important;max-width:76rem !important;margin-inline:auto;}
-#papers .featured-research-row {display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:2.5rem;align-items:start;padding:2rem 0;border-bottom:1px solid #b9a99b55;}
+#papers .featured-research-row {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2rem;align-items:start;padding:2rem 0;border-bottom:1px solid #b9a99b55;}
 #papers .featured-research-image img {display:block;width:100%;height:auto;object-fit:contain;margin:0 !important;background:transparent;}
 #papers .featured-research-label {font-size:.8rem;font-weight:700;display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;}
 #papers .featured-research-award {border:1px solid currentColor;border-radius:999px;padding:.2rem .65rem;font-size:.75rem;}
